@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <language id="english">
+   
+        <!--IMPORTANT NOTE TO TRANSLATORS!! If you see any empty strings like this "<![CDATA[]]>" Please leave them empty! They are meant to not proc or to not be seen-->
+        <!--ANOTHER ONE!! If you see any text that doesn't look "neat" like the rest of the strings, leave it be and ask me about it! A lot of these messy strings are set up in such a way to save me some extra work-->
+
+        <!--~~~~~~~~~~~~~~~~~~-->
+        <!-- ENGLISH TOOLTIPS -->
+        <!--~~~~~~~~~~~~~~~~~~-->
+        
+        <!-- Actor Dot Text Fixer -->
+        <entry id="str_ui_actor_dot_complete"><![CDATA[]]></entry>
+
+        <!-- Zero Space Fixer -->
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_zerospace"><![CDATA[{colour_start|invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_empty"><![CDATA[]]></entry>
+
+        <!-- MODES -->
+        <entry id="str_actor_mode_dave_default"><![CDATA[Calm & Collected]]></entry>
+        <entry id="str_actor_mode_dave_serious"><![CDATA[Exasperated]]></entry>
+        <entry id="buff_rule_data_tooltip_dave_default"><![CDATA[Calm & Collected]]></entry>
+        <entry id="buff_rule_data_tooltip_dave_serious"><![CDATA[Exasperated]]></entry>
+        <entry id="actor_mode_name_dave_default"><![CDATA[Calm & Collected]]></entry>
+        <entry id="actor_mode_name_dave_serious"><![CDATA[Exasperated]]></entry>
+
+
+        <!-- SKILLS -->
+
+        <!-- A Moment, Fractured -->
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_cooldown_buffTT"><![CDATA[{colour_start|notable}Cooldown:{colour_end} A Moment, Fractured]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_cooldown_skillTT"><![CDATA[{colour_start|notable}Cooldown:{colour_end} 1 rd]]></entry>
+
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_cooldown_buff2TT"><![CDATA[{colour_start|notable}Cooldown:{colour_end} Eldritch Blast]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_cooldown_skill2TT"><![CDATA[{colour_start|notable}Cooldown:{colour_end} 1 rd]]></entry>
+
+        <!-- Ride The Wind (fuck ass fucking engine cant just put this at the BOTTOM)-->
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_destealthTT"><![CDATA[{colour_start|stealth}De-stealth{colour_end}]]></entry>
+        
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_windTT_1"><![CDATA[{colour_start|move}Knockback{colour_end} 2 Vs Pos. 1/2 {colour_start|skill_unselectable}(100%% base){colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_windTT_12"><![CDATA[{colour_start|move}Pull{colour_end} 2 Vs Pos. 3/4 {colour_start|skill_unselectable}(100%% base){colour_end}]]></entry>
+
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_windTT_2"><![CDATA[{colour_start|move}Knockback{colour_end} 2 Vs Pos. 1/2 {colour_start|skill_unselectable}(110%% base){colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_windTT_22"><![CDATA[{colour_start|move}Pull{colour_end} 2 Vs Pos. 3/4 {colour_start|skill_unselectable}(110%% base){colour_end}]]></entry>
+
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_windTT_3"><![CDATA[{colour_start|move}Knockback{colour_end} 2 Vs Pos. 1/2 {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_windTT_32"><![CDATA[{colour_start|move}Pull{colour_end} 2 Vs Pos. 3/4 {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
+
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_windTT_4"><![CDATA[{colour_start|move}Knockback{colour_end} 2 Vs Pos. 1/2 {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_windTT_42"><![CDATA[{colour_start|move}Pull{colour_end} 2 Vs Pos. 3/4 {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_windTT_5"><![CDATA[{colour_start|move}Knockback{colour_end} 2 Vs Pos. 1/2 {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_windTT_52"><![CDATA[{colour_start|move}Pull{colour_end} 2 Vs Pos. 3/4 {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
+
+        <!-- Guardian Coil -->
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_coilTargetTT"><![CDATA[{colour_start|buff}Buff Target:{colour_end}]]></entry>
+
+        <!-- Fathomless Pact -->
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_pactTT"><![CDATA[Activate {colour_start|riposte}Riposte{colour_end} if HP below 50%%]]></entry>
+        
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_riposteSTATS1"><![CDATA[{colour_start|riposte}ACC:90 / DMG:+15%% / Crit:+4%%{colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_riposteSTATS2"><![CDATA[{colour_start|riposte}ACC:95 / DMG:+15%% / Crit:+9%%{colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_riposteSTATS3"><![CDATA[{colour_start|riposte}ACC:100 / DMG:+15%% / Crit:+10%%{colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_riposteSTATS4"><![CDATA[{colour_start|riposte}ACC:105 / DMG:+15%% / Crit:+11%%{colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_riposteSTATS5"><![CDATA[{colour_start|riposte}ACC:110 / DMG:+15%% / Crit:+12%%{colour_end}]]></entry>
+
+        <!-- Oceanic Plunge (this shit is also stupid) -->
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_plungeTT"><![CDATA[{colour_start|buff}Buff Party:{colour_end} +50%% Armor Piercing]]></entry>
+
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_plungeTT2"><![CDATA[{colour_start|mark}Mark{colour_end} Target]]></entry>
+
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_plungeDODGETT1"><![CDATA[If HP Below 50%%:
+{colour_start|debuff}Debuff Target:{colour_end} -15 DODGE {colour_start|skill_unselectable}(100%% base){colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_plungeDODGETT2"><![CDATA[If HP Below 50%%:
+{colour_start|debuff}Debuff Target:{colour_end} -16 DODGE {colour_start|skill_unselectable}(110%% base){colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_plungeDODGETT3"><![CDATA[If HP Below 50%%:
+{colour_start|debuff}Debuff Target:{colour_end} -17 DODGE {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_plungeDODGETT4"><![CDATA[If HP Below 50%%:
+{colour_start|debuff}Debuff Target:{colour_end} -18 DODGE {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_plungeDODGETT5"><![CDATA[If HP Below 50%%:
+{colour_start|debuff}Debuff Target:{colour_end} -20 DODGE {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
+
+        <!-- Self Damage Tooltips (i really hate this fucking game that i have to even do this) -->
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_dmgTT_4"><![CDATA[{colour_start|notable}Self:{colour_end} {colour_start|mark}-4 HP{colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_dmgTT_5"><![CDATA[{colour_start|notable}Self:{colour_end} {colour_start|mark}-5 HP{colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_dmgTT_6"><![CDATA[{colour_start|notable}Self:{colour_end} {colour_start|mark}-6 HP{colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_dmgTT_7"><![CDATA[{colour_start|notable}Self:{colour_end} {colour_start|mark}-7 HP{colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_dmgTT_8"><![CDATA[{colour_start|notable}Self:{colour_end} {colour_start|mark}-8 HP{colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_dmgTT_9"><![CDATA[{colour_start|notable}Self:{colour_end} {colour_start|mark}-9 HP{colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_dmgTT_10"><![CDATA[{colour_start|notable}Self:{colour_end} {colour_start|mark}-10 HP{colour_end}]]></entry>
+
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_dmgTT_Half1"><![CDATA[{colour_start|virtue}Free Action{colour_end}
+{colour_start|notable}Self:{colour_end} {colour_start|mark}-16 HP{colour_end}]]></entry>
+
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_dmgTT_Half2"><![CDATA[{colour_start|virtue}Free Action{colour_end}
+{colour_start|notable}Self:{colour_end} {colour_start|mark}-19 HP{colour_end}]]></entry>
+
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_dmgTT_Half3"><![CDATA[{colour_start|virtue}Free Action{colour_end}
+{colour_start|notable}Self:{colour_end} {colour_start|mark}-23 HP{colour_end}]]></entry>
+
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_dmgTT_Half4"><![CDATA[{colour_start|virtue}Free Action{colour_end}
+{colour_start|notable}Self:{colour_end} {colour_start|mark}-26 HP{colour_end}]]></entry>
+
+        <entry id="buff_stat_tooltip_upgrade_discount_dave_dmgTT_Half5"><![CDATA[{colour_start|virtue}Free Action{colour_end}
+{colour_start|notable}Self:{colour_end} {colour_start|mark}-29 HP{colour_end}]]></entry>
+
+        <!-- TRINKET TOOLTIPS -->
+
+
+        <entry id="milkmaid+str_dave_bark_test"><![CDATA[Um...Are you sure your bleeding hand is fine?]]></entry>
+        <entry id="soulbound+str_dave_bark_test"><![CDATA[Yes I'm sure, I do this all the time.]]></entry>
+        <entry id="str_dave_bark_test"><![CDATA[]]></entry>
+    </language>
+</root>

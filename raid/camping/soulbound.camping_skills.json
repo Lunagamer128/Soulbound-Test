@@ -1,0 +1,353 @@
+{
+	"configuration" : 
+	{
+        "class_specific_number_of_classes_threshold" :  5
+	},
+
+	"skills" :
+	[
+		{
+
+			"id" : "dave_notes",
+			"level" : 0,
+			"cost" : 4,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "dave_notes1",
+					"amount" :  0.20
+				},
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "dave_notes2",
+					"amount" :  0.08
+				},
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "dave_notes3",
+					"amount" :  0.10
+				}								
+			],
+			"hero_classes" : ["soulbound" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		{
+
+			"id" : "dave_reading",
+			"level" : 0,
+			"cost" : 2,
+			"effects" : 
+			[
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "dave_reading1",
+					"amount" :  -0.20
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    "type": "stress_heal_amount",
+                    "sub_type" : "",
+					"amount" :  15
+				}							
+			],
+			"hero_classes" : ["soulbound" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		{
+
+			"id" : "dave_gaze",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "reduce_ambush_chance",
+                    "sub_type" : "",
+					"amount" :  1.00
+				},
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "dave_bypass",
+					"amount" :  1.00
+				},	
+				{ 
+					"selection" : "party_other",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+                    "type": "stress_damage_amount",
+                    "sub_type" : "",
+					"amount" :  15
+				}				
+			],
+			"hero_classes" : ["soulbound" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		{
+
+			"id" : "dave_blessing",
+			"level" : 0,
+			"cost" : 4,
+			"use_limit" : 1,
+			"effects" : 
+			[
+
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "dave_blessing1",
+					"amount" :  0.20
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    "type": "health_heal_max_health_percent",
+                    "sub_type" : "",
+					"amount" :  0.25
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+                    "type": "loot",
+                    "sub_type" : "dave_dagonfish_camp",
+					"amount" :  2
+				}								
+			],
+			"hero_classes" : ["soulbound" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		{
+
+			"id" : "dave_cry",
+			"level" : 0,
+			"cost" : 0,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "remove_deaths_door_recovery_buffs",
+                    "sub_type" : "",
+					"amount" :  1
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    "type": "stress_damage_amount",
+                    "sub_type" : "",
+					"amount" :  15
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "dave_DBresist",
+					"amount" :  0.10
+				}								
+			],
+			"hero_classes" : ["soulbound" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		{
+
+			"id" : "dave_groom",
+			"level" : 0,
+			"cost" : 3,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "dave_groom1",
+					"amount" :  3
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "dave_groom2",
+					"amount" :  0.10
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "dave_groom3",
+					"amount" :  -0.20
+				}								
+			],
+			"hero_classes" : ["soulbound" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		{
+
+			"id" : "dave_wheel",
+			"level" : 0,
+			"cost" : 1,
+			"use_limit" : 13,
+			"effects" : 
+			[
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 0.25 },
+                    "type": "buff",
+                    "sub_type" : "dave_gambit_hp",
+					"amount" :  -0.10
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 0.25 },
+                    "type": "buff",
+                    "sub_type" : "dave_gambit_dodge",
+					"amount" :  -0.05
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 0.25 },
+                    "type": "buff",
+                    "sub_type" : "dave_gambit_acc",
+					"amount" :  -0.05
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 0.25 },
+                    "type": "loot",
+                    "sub_type" : "dave_gambit_winner",
+					"amount" :  1
+				}								
+			],
+			"hero_classes" : ["soulbound" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		}
+	] 
+}

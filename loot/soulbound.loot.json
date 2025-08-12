@@ -1,0 +1,32 @@
+{
+   "loot_tables" :
+   [
+
+   
+	
+   {
+         "id" : "dave_dagonfish_camp",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+			   { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "dave_dagonfish", "amount" : 2 }}
+           
+         ]
+      },
+
+      {
+         "id" : "dave_gambit_winner",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+			   { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "dave_gambit_winner", "amount" : 1 }}
+           
+         ]
+      }
+	  
+   ]
+}

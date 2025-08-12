@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <language id="english">
+    
+    <!--IMPORTANT NOTE TO TRANSLATORS!! If you see any empty strings like this "<![CDATA[]]>" Please leave them empty! They are meant to not proc as often or to not be seen-->
+    <!--ANOTHER ONE!! If you see any text that doesn't look "neat" like the rest of the strings, leave it be and ask me about it! A lot of these messy strings are set up in such a way to save me some extra work-->
+    <!--Please capitalize any mention of "The Frog", it is a title, thank you-->
+
+	<entry id="hero_class_name_soulbound"><![CDATA[Soulbound]]></entry>
+	<entry id="action_verbose_body_blacksmith_soulbound"><![CDATA[blacksmith quote here]]></entry>
+	<entry id="action_verbose_body_guild_soulbound"><![CDATA[guild quote here]]></entry>
+	<entry id="action_verbose_body_camping_trainer_soulbound"><![CDATA[survivalist quote here]]></entry>
+	
+    <entry id="str_skill_mode_info_dave_default"><![CDATA[​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+    <entry id="str_skill_mode_info_dave_serious"><![CDATA[​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+
+
+    <!-- Skills -->
+    <entry id="combat_skill_name_soulbound_dave_moment"><![CDATA[A Moment, Fractured]]></entry>
+    <entry id="combat_skill_name_soulbound_dave_wind"><![CDATA[Ride The Wind]]></entry>
+    <entry id="combat_skill_name_soulbound_dave_blast"><![CDATA[Eldritch Blast]]></entry>
+    <entry id="combat_skill_name_soulbound_dave_tendril"><![CDATA[Oceanic Plunge]]></entry>
+    <entry id="combat_skill_name_soulbound_dave_man"><![CDATA[Abyssal Calling]]></entry>
+    <entry id="combat_skill_name_soulbound_dave_hurtie"><![CDATA[Fathomless Pact]]></entry>
+    <entry id="combat_skill_name_soulbound_dave_coil"><![CDATA[{colour_start|yes_target_fre}¤ ¤ ¤ ¤{colour_end}
+Guardian Coil]]></entry>
+
+    <entry id="combat_skill_name_soulbound_move"><![CDATA[Move]]></entry>
+
+    <entry id="upgrade_tree_name_soulbound.dave_moment"><![CDATA[A Moment, Fractured]]></entry>
+    <entry id="upgrade_tree_name_soulbound.dave_wind"><![CDATA[Ride The Wind]]></entry>
+    <entry id="upgrade_tree_name_soulbound.dave_blast"><![CDATA[Eldritch Blast]]></entry>
+    <entry id="upgrade_tree_name_soulbound.dave_tendril"><![CDATA[Oceanic Plunge]]></entry>
+    <entry id="upgrade_tree_name_soulbound.dave_man"><![CDATA[Abyssal Calling]]></entry>
+    <entry id="upgrade_tree_name_soulbound.dave_hurtie"><![CDATA[Fathomless Pact]]></entry>
+    <entry id="upgrade_tree_name_soulbound.dave_coil"><![CDATA[{colour_start|yes_target_fre}¤ ¤ ¤ ¤{colour_end}
+Guardian Coil]]></entry>
+
+    <entry id="camping_skill_name_dave_notes"><![CDATA[Note Taking]]></entry>
+    <entry id="camping_skill_name_dave_reading"><![CDATA[Silent Reading]]></entry>
+    <entry id="camping_skill_name_dave_blessing"><![CDATA[Dagon's Blessing]]></entry>
+    <entry id="camping_skill_name_dave_gaze"><![CDATA[Mothfolk's Gaze]]></entry>
+    <entry id="camping_skill_name_dave_cry"><![CDATA[Remember The Fallen]]></entry>
+    <entry id="camping_skill_name_dave_groom"><![CDATA[Prim And Proper]]></entry>
+    <entry id="camping_skill_name_dave_wheel"><![CDATA[Frog God's Gambit]]></entry>
+
+    <entry id="camping_skill_effect_loot_dave_dagonfish_camp"><![CDATA[Dagon bestows upon you a blessing of fish.]]></entry>
+    <entry id="camping_skill_effect_loot_dave_gambit_winner"><![CDATA[+40% DMG (4 Battles)]]></entry>
+
+    <entry id="str_inventory_title_supplydave_dagonfish"><![CDATA[Herrings]]></entry>
+    <entry id="str_inventory_description_supplydave_dagonfish"><![CDATA[Heals 15% HP & +5 Stress
+{colour_start|skill_unselectable}"I cannot stand fish, I had to live off these for 15 years!"{colour_end}]]></entry>
+
+    <entry id="str_inventory_title_supplydave_gambit_winner"><![CDATA[Fate's Blessing]]></entry>
+    <entry id="str_inventory_description_supplydave_gambit_winner"><![CDATA[+40% DMG on {colour_start|notable}Soulbound ONLY{colour_end} (4 Battles)
+{colour_start|skill_unselectable}"There has to be a drawback to this...There's not??"{colour_end}]]></entry>
+
+
+
+	<!-- Equipment -->
+
+	<entry id="soulbound_weapon_0"><![CDATA[...]]></entry>
+	<entry id="soulbound_weapon_1"><![CDATA[...]]></entry>
+	<entry id="soulbound_weapon_2"><![CDATA[...]]></entry>
+	<entry id="soulbound_weapon_3"><![CDATA[...]]></entry>
+	<entry id="soulbound_weapon_4"><![CDATA[...]]></entry>
+	<entry id="upgrade_tree_name_soulbound.weapon"><![CDATA[Walking Stick]]></entry>
+
+    <entry id="soulbound_armour_0"><![CDATA[...]]></entry>
+	<entry id="soulbound_armour_1"><![CDATA[...]]></entry> 
+    <entry id="soulbound_armour_2"><![CDATA[...]]></entry>
+    <entry id="soulbound_armour_3"><![CDATA[...]]></entry>
+    <entry id="soulbound_armour_4"><![CDATA[...]]></entry>
+    <entry id="upgrade_tree_name_soulbound.armour"><![CDATA[Cloak]]></entry>
+			
+		
+	
+	<!-- Trinkets -->
+    
+    <entry id="str_inventory_title_trinketdave_jug"><![CDATA[Alchemy Jug]]></entry>
+
+
+
+	<!-- BARKS -->
+
+    <!-- Camping Skill Barks -->
+    <entry id="soulbound+str_bark_dave_notes"><![CDATA[You will want to aim for it's legs, topple it over to stun it.]]></entry>
+    <entry id="soulbound+str_bark_dave_notes"><![CDATA[Yes, obviously aim for the head.]]></entry>
+    <entry id="soulbound+str_bark_dave_notes"><![CDATA[If you hear it taking in a large breath, cover your ears quickly.]]></entry>
+    <entry id="soulbound+str_bark_dave_reading"><![CDATA[This book? It tells the tale of a prince travelling the galaxy...*Quite a familiar tale.*]]></entry>
+    <entry id="soulbound+str_bark_dave_reading"><![CDATA[Hm, this one is a strange book...A clown with a flag on his face? How queer.]]></entry>
+    <entry id="soulbound+str_bark_dave_blessing"><![CDATA[Here, Dagon was kind and you need these more than I do. *Ugh, that smell..*]]></entry>
+    <entry id="soulbound+str_bark_dave_blessing"><![CDATA[Please, eat these quickly. I can't stand that stench any longer...]]></entry>
+    <entry id="soulbound+str_bark_dave_gaze"><![CDATA[I have not needed to sleep in decades, I can keep watch for the night.]]></entry>
+    <entry id="soulbound+str_bark_dave_gaze"><![CDATA[No, I don't need to sleep...Do I remember what dreams are like? Perhaps, it's been awhile.]]></entry>
+    <entry id="soulbound+str_bark_dave_cry"><![CDATA[*You three will live again once this is all over..I promise it!*]]></entry>
+    <entry id="soulbound+str_bark_dave_cry"><![CDATA[(Quiet sobbing coming from the corner)]]></entry>
+    <entry id="soulbound+str_bark_dave_groom"><![CDATA[This old brush? This was a gift for my Eclosion when I was a child.]]></entry>
+    <entry id="soulbound+str_bark_dave_groom"><![CDATA[Yes I like to take time to groom out my fur, I'm not that much of a madman.]]></entry>
+    <entry id="soulbound+str_bark_dave_wheel"><![CDATA[That damnable Frog plagues my mind once more.]]></entry>
+    <entry id="soulbound+str_bark_dave_wheel"><![CDATA[I can hear the wheel spinning in the deepest corners of my mind!]]></entry>
+    <entry id="soulbound+str_bark_dave_wheel"><![CDATA[(Sighs) Not again...]]></entry>
+    <entry id="soulbound+str_bark_dave_wheel"><![CDATA[Fuck.]]></entry>
+
+	<!-- Crit Barks -->
+	<entry id="soulbound+str_critbyhero"><![CDATA[Right in-between the eyes. It always works]]></entry>
+    <entry id="soulbound+str_critbyhero"><![CDATA[I still have my precision!]]></entry>
+    <entry id="soulbound+str_critbyhero"><![CDATA[You learn where to hit after decades of fighting.]]></entry>
+
+	<!-- Heart Attack --> 
+	<entry id="soulbound+str_heart_attack"><![CDATA[The stars-THE STARS ARE THE SAME! I CAN GET HOME!!-]]></entry>
+	
+	<!-- Death's Door -->
+	<entry id="soulbound+str_bark_deathsdoor"><![CDATA[Fuck, it's now or never I suppose.]]></entry>
+	<entry id="soulbound+str_bark_deathsdoorsurvive"><![CDATA[As per usual.]]></entry>
+
+
+    <!-- Hamlet Barks -->
+
+	<!-- Activities -->
+	<entry id="soulbound+str_bar_committed"><![CDATA[You there, what wines do you have in the cellar?]]></entry>
+    <entry id="soulbound+str_gambling_committed"><![CDATA[All of my money is gone? But I have just sat down!]]></entry>
+    <entry id="soulbound+str_meditation_committed"><![CDATA[What? Candles? No, I am just here to read.]]></entry>
+    <entry id="soulbound+str_prayer_committed"><![CDATA[So, Dagon, have I met my quota for the week?]]></entry>
+    <entry id="soulbound+str_treatment_committed"><![CDATA[Do NOT crush my wings with those straps!]]></entry>
+    <entry id="soulbound+str_disease_treatment_committed"><![CDATA[Careful with the antennae! They are quite sensitive.]]></entry>
+
+    <!--Refusals-->
+    <entry id="soulbound+str_override_invalid_rejection"><![CDATA[This activity would not suit me.]]></entry>
+    <entry id="soulbound+str_override_invalid_rejection"><![CDATA[I would rather spend my time elsewhere.]]></entry>
+    <entry id="soulbound+str_override_invalid_rejection"><![CDATA[I would prefer not to, thank you.]]></entry>
+
+    <entry id="soulbound+str_brothel_rejection"><![CDATA[No, I will not do that to her.]]></entry>
+    <entry id="soulbound+str_brothel_rejection"><![CDATA[I cannot do that, Alice would most definitely kill me.]]></entry>
+    
+    <entry id="soulbound+str_flagellation_rejection"><![CDATA[Dagon would not permit me to do such a thing.]]></entry>
+    <entry id="soulbound+str_flagellation_rejection"><![CDATA[This would not follow my pact with Dagon.]]></entry>
+
+    <!-- Activity Based Quirks -->
+
+    <!--Alcoholism-->
+    <entry id="soulbound+str_alcoholism_prayer_rejection"><![CDATA[(Sniffling) Why would I EVER want to go speak to that ASSHOLE of a patron?!?..Dagon you did *not* hear that.]]></entry>
+    <entry id="soulbound+str_alcoholism_gambling_rejection"><![CDATA[(Sniffle) They'll just steal my money...If I had any.]]></entry>
+    <entry id="soulbound+str_alcoholism_meditation_rejection"><![CDATA[I can't go read! My tears would just ruin the pages! (Sobbing)]]></entry>
+    
+    <!--Gambler-->
+    <entry id="soulbound+str_gambler_bar_rejection"><![CDATA[You think I have enough money left to spend on alcohol?]]></entry>
+    <entry id="soulbound+str_gambler_meditation_rejection"><![CDATA[I read a book on gambling tips, let me go test them out.]]></entry>
+    <entry id="soulbound+str_gambler_prayer_rejection"><![CDATA[...Dagon does not need to know about this.]]></entry>
+    
+    <!--Enlightened-->
+    <entry id="soulbound+str_enlightened_bar_rejection"><![CDATA[It is much too noisy to read there, I wouldn't be able to focus.]]></entry>
+    <entry id="soulbound+str_enlightened_gambling_rejection"><![CDATA[I have to save up enough money to buy the next volume of this novel.]]></entry>
+    <entry id="soulbound+str_enlightened_prayer_rejection"><![CDATA[Dagon would be bothering me too much, I wish to focus on reading.]]></entry>
+    
+    <!--God Fearing-->
+    <entry id="soulbound+str_god_fearing_bar_rejection"><![CDATA[Dagon said he would cut my tongue if I were to drink another drop of alcohol.]]></entry>
+    <entry id="soulbound+str_god_fearing_gambling_rejection"><![CDATA[Dagon needs souls, not money.]]></entry>
+    <entry id="soulbound+str_god_fearing_meditation_rejection"><![CDATA[I fear that Dagon would tear the pages at the end of my books as a mean prank.]]></entry>
+    
+    <!--Other Activity Rejections-->
+    <entry id="soulbound+str_resolution_bar_rejection"><![CDATA[I remember Alice always saying that she hated my drinking habits.]]></entry>
+    <entry id="soulbound+str_known_cheat_gambling_rejection"><![CDATA[...They did not know someone could lose as poorly as me.]]></entry>
+    <entry id="soulbound+str_unquiet_mind_meditation_rejection"><![CDATA[I cannot read when my mind's silence is being broken by *Dagon.*]]></entry>
+    <entry id="soulbound+str_witness_prayer_rejection"><![CDATA[...Dagon is upset with me.]]></entry>
+    <entry id="soulbound+str_faithless_prayer_rejection"><![CDATA[They will not allow me in these halls after they found out I do not pray to "The Light"...]]></entry>
+    
+
+	<!-- Roster -->
+	<entry id="soulbound+str_roster_list_low_stress_bark"><![CDATA[I am enjoying my time here but...I feel too idle.]]></entry>
+    <entry id="soulbound+str_roster_list_medium_stress_bark"><![CDATA[Me? Oh I am fine, I can go another time, surely.]]></entry>
+    <entry id="soulbound+str_roster_list_high_stress_bark"><![CDATA[How is my mental wellbeing? I am fine. This is just how it always is]]></entry>
+
+    <entry id="soulbound+str_roster_list_fearful_bark"><![CDATA[...]]></entry>
+
+    <entry id="soulbound+str_roster_list_bar_bark"><![CDATA[(Ugly sobbing and crying)]]></entry>
+    <entry id="soulbound+str_roster_list_gambling_bark"><![CDATA[Snake eyes again? Let's go another round, then.]]></entry>
+    <entry id="soulbound+str_roster_list_meditation_bark"><![CDATA[Hm...(Flips page)]]></entry>
+    <entry id="soulbound+str_roster_list_prayer_bark"><![CDATA[Yes Dagon I *assure* you that dog's soul counted towards your quota.]]></entry>
+    <entry id="soulbound+str_roster_list_treatment_bark"><![CDATA[Please let me out of these restraints, I *need* to stretch my wings, they are aching!]]></entry>
+    <entry id="soulbound+str_roster_list_disease_treatment_bark"><![CDATA[What do you mean I am colorblind?]]></entry>
+
+	<entry id="soulbound+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[I could meet Dagon's quotas in much easier ways, I refuse.]]></entry>
+    <entry id="soulbound+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[Dagon fills my mind with endless screams and wails if I even look at that place again.]]></entry>
+    <entry id="soulbound+str_quest_too_hard"><![CDATA[I...Believe my skills are best suited elsewhere.]]></entry>
+    <entry id="soulbound+str_quest_too_easy"><![CDATA[This would bore me, please let me be somewhere else where I am of better use.]]></entry>
+
+    <!-- Stagecoach -->
+    <entry id="soulbound+str_stagecoach_idle"><![CDATA[There is a town all the way out here?]]></entry>
+    <entry id="soulbound+str_stagecoach_idle"><![CDATA[This could be my chance to set things right...]]></entry>
+    <entry id="soulbound+str_stagecoach_roster_limit_quirk_full_rejection"><![CDATA[It is much too crowded in this town, reminds me of a family reunion.]]></entry>
+	
+
+
+    <!-- DUNGEON BARKS -->
+
+    <!-- Night Ambush (The numbers are levels I think? Haven't confirmed) -->
+    <entry id="soulbound+str_night_ambush_bark_0"><![CDATA[What is it? I'm in the middle of an interesting chapter!]]></entry>
+    <entry id="soulbound+str_night_ambush_bark_1"><![CDATA[Really? An ambush at this hour? What brutes.]]></entry>
+    <entry id="soulbound+str_night_ambush_bark_2"><![CDATA[I thought I had scared those ones off!]]></entry>
+    <entry id="soulbound+str_night_ambush_bark_3"><![CDATA[I was not sleeping, I simply did not see them.]]></entry>
+
+    <entry id="soulbound+str_bark_startmoving"><![CDATA[We will get nowhere if we idle about.]]></entry>
+    <entry id="soulbound+str_bark_startmoving"><![CDATA[There is no issue, let's continue.]]></entry>
+
+    <entry id="soulbound+str_bark_stopmoving"><![CDATA[What is it this time?]]></entry>
+    <entry id="soulbound+str_bark_stopmoving"><![CDATA[Why did we stop? Did someone see something?]]></entry>
+
+    <entry id="soulbound+str_bark_backingup"><![CDATA[Please do not trip on my cloak.]]></entry>
+    <entry id="soulbound+str_bark_backingup"><![CDATA[Going back in this way is not advisable.]]></entry>
+
+    <entry id="soulbound+str_bark_increasingstress"><![CDATA[I've lived through much worse situations than this.]]></entry>
+    <entry id="soulbound+str_bark_increasingstress"><![CDATA[I am doing fine, thank you. Just another day for me.]]></entry>
+    <entry id="soulbound+str_bark_increasingstress"><![CDATA[If you were me, this would be soothing to you.]]></entry>
+
+    <!-- It's backwards for some reason, 0 is high light, 1 is medium light, 2 is low light -->
+    <entry id="soulbound+str_bark_torch_0"><![CDATA[...Sorry, what did you say? It's really bright...]]></entry>
+    <entry id="soulbound+str_bark_torch_1"><![CDATA[You didn't have to snuff the torch, I wasn't distracted by the brightness I promise you.]]></entry>
+    <entry id="soulbound+str_bark_torch_2"><![CDATA[Why are you all complaining? I can see just fine for all of us.]]></entry>
+
+    <!-- No idea what specific loot causes these to proc, just write something generic for each -->
+    <entry id="soulbound+str_bark_curiogood"><![CDATA[...]]></entry> 
+    <entry id="soulbound+str_bark_curiomeh"><![CDATA[...]]></entry> 
+    <entry id="soulbound+str_bark_curiobad"><![CDATA[...]]></entry>  
+
+    <!-- Imposter Syndrome quirk, hero randomly ignores player commands -->
+    <entry id="soulbound+str_ignore_command_imposter_syndrome"><![CDATA[Why was I trusted with this again...Ignore me.]]></entry>
+
+    <!-- Kleptomaniac I think?? -->
+    <entry id="soulbound+str_keep_loot_string"><![CDATA[I deserve these things after all the work I have done here.]]></entry>
+
+    <!-- Sometimes procs when in the first room of any Darkest Dungeon mission -->
+    <entry id="soulbound+str_quest_darkest_dungeon"><![CDATA[What a wonderful place to be right now...]]></entry>
+
+    <!-- Hero gets knocked back either by themselves or an enemy -->
+    <entry id="soulbound+str_combat_knockback"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_combat_knockback"><![CDATA[...]]></entry>
+
+    <entry id="soulbound+str_bark_shuffledot"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_bark_shuffled"><![CDATA[...]]></entry>
+
+    <!--Camp Barks 2: Electric Boogaloo-->
+    <entry id="soulbound+str_bark_stress_partylow"><![CDATA[Expeditions usually don't go this well...]]></entry>
+    <entry id="soulbound+str_bark_stress_partyhigh"><![CDATA[Trust me, you can numb yourself to the horrors here.]]></entry>
+
+    <entry id="soulbound+str_bark_hp_partylow"><![CDATA[Ah, looks like you have gotten my bad luck today.]]></entry>
+    <entry id="soulbound+str_bark_hp_partyhigh"><![CDATA[Things are well, the Frog must not be watching today.]]></entry>
+
+    <entry id="soulbound+str_bark_hp_selflow"><![CDATA[My right lower arm is nearly detatched? Ah, I thought that was a stomach ache.]]></entry>
+    <entry id="soulbound+str_bark_hp_selfhigh"><![CDATA[I'm...Unharmed? Something must be approaching to kill me.]]></entry>
+
+    <entry id="soulbound+str_bark_stress_selflow"><![CDATA[It's too calm...It's too quiet!]]></entry>
+    <entry id="soulbound+str_bark_stress_selfhigh"><![CDATA[I'm not worried one bit, this amount of pressure is normal for me.]]></entry>
+
+    <!-- Relates to high or low stacks of food I believe? Could be supplies in general -->
+    <entry id="soulbound+str_bark_provisions_low"><![CDATA[No, Dagon is not nice enough to provide extra fish to us for rations.]]></entry>
+    <entry id="soulbound+str_bark_provisions_high"><![CDATA[Did anyone happen to check if these were expired before we ate them?]]></entry>
+
+    <!-- No clue what this is lol --> 
+    <entry id="soulbound+str_bark_companionship"><![CDATA[Has anyone else had the chance to face a god in combat? Just me?]]></entry>
+    <entry id="soulbound+str_bark_companionship"><![CDATA[Please stop asking me to produce silk, I cannot.]]></entry>
+    <entry id="soulbound+str_bark_companionship"><![CDATA[Stop waving your lantern in front of my face! Do you want me to be blinded?!]]></entry>
+
+    <!-- Is based on the party's overall HP and Stress levels, can't give exact numbers -->
+    <entry id="soulbound+str_bark_party_great_condition"><![CDATA[We are all in good condition? That is unusual, stay on high alert.]]></entry>
+    <entry id="soulbound+str_bark_party_poor_condition"><![CDATA[You should not worry, expeditions usually go this poorly yet we still survive.]]></entry>
+
+    <!-- I think these are dependant on if you have another stack of firewood in your inventory? Might also be how many camp points are left who knows -->
+    <entry id="soulbound+str_bark_firewood_low"><![CDATA[I can only produce a small flame to keep myself from dying, I can't warm 3 other people!]]></entry>
+    <entry id="soulbound+str_bark_firewood_high"><![CDATA[...Do you think this firewood has termites in it?]]></entry>
+	
+    <!-- Curio Interactions with Certain Quirks -->
+    <entry id="soulbound+trigger_curio_quirk_compulsive"><![CDATA[My will to simply observe this is waining thin.]]></entry>
+    <entry id="soulbound+trigger_curio_quirk_curious"><![CDATA[...]]></entry>
+    <entry id="soulbound+trigger_curio_quirk_dark_temptation"><![CDATA[Is this a relic of the Frog?]]></entry>
+    <entry id="soulbound+trigger_curio_quirk_guilty_conscience"><![CDATA[Alice, Paul, and Walter all must be staring down at me right now with shame...]]></entry>
+    <entry id="soulbound+trigger_curio_quirk_kleptomaniac"><![CDATA[...]]></entry>
+    <entry id="soulbound+trigger_curio_quirk_bloodthirsty"><![CDATA[These devices have strange mechanisms, let me inspect them.]]></entry>
+    <entry id="soulbound+trigger_curio_quirk_hieromania"><![CDATA[...]]></entry>
+    <entry id="soulbound+trigger_curio_quirk_ablutomania"><![CDATA[This damned spot wont get OUT!]]></entry>
+    <entry id="soulbound+trigger_curio_quirk_dacnomania"><![CDATA[I went through *all* of that, the least I deserve is to have others share my experience.]]></entry>
+    <entry id="soulbound+trigger_curio_quirk_egomania"><![CDATA[...]]></entry>
+    <entry id="soulbound+trigger_curio_quirk_hylomania"><![CDATA[...]]></entry>
+    <entry id="soulbound+trigger_curio_quirk_sitiomania"><![CDATA[...]]></entry>
+    <entry id="soulbound+trigger_curio_quirk_plutomania"><![CDATA[...]]></entry>
+    <entry id="soulbound+trigger_curio_quirk_necromania"><![CDATA[...]]></entry>
+    <entry id="soulbound+trigger_curio_quirk_dipsomania"><![CDATA[Finally, something to dull the senses!]]></entry>
+    <entry id="soulbound+trigger_curio_quirk_paranormania"><![CDATA[...]]></entry>
+    <entry id="soulbound+trigger_curio_quirk_hagiomania"><![CDATA[...]]></entry>
+    <entry id="soulbound+trigger_curio_quirk_demonomania"><![CDATA[The Frog commands me to investigate this.]]></entry>
+
+    <!-- Color of Madness Wave Barks -->
+    <entry id="soulbound+str_wave_spawn_mash"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_wave_curio_room"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_wave_dungeon_weald"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_wave_dungeon_warrens"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_wave_dungeon_crypts"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_wave_dungeon_cove"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_wave_dungeon_farm"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_wave_dungeon_darkestdungeon"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_wave_dungeon_town"><![CDATA[...]]></entry>
+
+    <entry id="soulbound+str_boss_miller_harvest"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_boss_miller_grind"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_boss_miller_sadness"><![CDATA[...]]></entry>
+
+    <!-- Mercenaries recruited from the stage coach who refuse to go anywhere but the Farmstead -->
+    <entry id="soulbound+str_quest_quirk"><![CDATA[...]]></entry>
+
+
+
+	<!--AFFLICTIONS-->
+
+
+    <!-- Irrational -->
+	
+    <entry id="soulbound+str_afflicted_irrational"><![CDATA[...]]></entry>
+	<entry id="soulbound+str_afflicted_irrational"><![CDATA[...]]></entry>
+	<entry id="soulbound+str_afflicted_irrational"><![CDATA[...]]></entry>
+	
+	<!-- Irrational: Move Forward -->
+    <entry id="soulbound+str_change_pos_fwd_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_change_pos_fwd_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_change_pos_fwd_irrational"><![CDATA[...]]></entry>
+	
+	<!-- Irrational: Move Back -->
+    <entry id="soulbound+str_change_pos_back_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_change_pos_back_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_change_pos_back_irrational"><![CDATA[...]]></entry>
+	
+	<!-- Irrational: Bark Stress -->
+    <entry id="soulbound+str_bark_stress_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_bark_stress_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_bark_stress_irrational"><![CDATA[...]]></entry>
+	
+	<!-- Irrational: Ignore command -->
+    <entry id="soulbound+str_ignore_command_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_ignore_command_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_ignore_command_irrational"><![CDATA[...]]></entry>
+	
+	<!-- Irrational: Friendly fire -->
+    <entry id="soulbound+str_attack_friendly_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_attack_friendly_irrational"><![CDATA[...]]></entry>	
+	
+	<!-- Irrational: Block Meal -->
+    <entry id="soulbound+str_block_camping_meal_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_camping_meal_irrational"><![CDATA[...]]></entry>
+	
+	<!-- Irrational: Random command -->
+    <entry id="soulbound+str_random_command_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_random_command_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_random_command_irrational"><![CDATA[...]]></entry>
+	
+	<!-- Irrational: Camp Stress -->
+    <entry id="soulbound+str_bark_stress_camp_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_bark_stress_camp_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_bark_stress_camp_irrational"><![CDATA[...]]></entry>
+	
+	<!-- Irrational: Mark Self -->
+    <entry id="soulbound+str_mark_self_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_mark_self_irrational"><![CDATA[...]]></entry>
+	
+	<!-- Irrational: Self dogded an attack -->
+    <entry id="soulbound+str_comment_self_missed_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_self_missed_irrational"><![CDATA[...]]></entry>
+	
+	<!-- Irrational: Ally Attack Hit -->
+    <entry id="soulbound+str_comment_ally_attack_hit_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_ally_attack_hit_irrational"><![CDATA[...]]></entry>
+	
+	<!-- Irrational: Ally Attack Missed -->
+    <entry id="soulbound+str_comment_ally_attack_missed_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_ally_attack_missed_irrational"><![CDATA[...]]></entry>	
+	
+	<!-- Irrational: Ally Dodged -->
+    <entry id="soulbound+str_comment_ally_missed_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_ally_missed_irrational"><![CDATA[...]]></entry>
+	
+	<!-- Irrational: Block Move -->
+    <entry id="soulbound+str_block_move_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_move_irrational"><![CDATA[...]]></entry>
+	
+	<!-- Irrational: Block Item -->
+    <entry id="soulbound+str_block_item_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_item_irrational"><![CDATA[...]]></entry>
+	
+	<!-- Irrational: Block Heal -->
+    <entry id="soulbound+str_block_heal_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_heal_irrational"><![CDATA[...]]></entry>
+	
+	<!-- Irrational: Block Buff -->
+    <entry id="soulbound+str_block_buff_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_buff_irrational"><![CDATA[...]]></entry>
+	
+	<!-- Irrational: Hero will refuse to perform a camp skill -->
+    <entry id="soulbound+str_block_camping_skill_performer_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_camping_skill_performer_irrational"><![CDATA[...]]></entry>
+	
+	<!-- Irrational: Hero will block being the target of a camp skill -->
+    <entry id="soulbound+str_block_camping_skill_target_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_camping_skill_target_irrational"><![CDATA[...]]></entry>
+	
+	<!-- Irrational: Attack Self -->
+    <entry id="soulbound+str_attack_self_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_attack_self_irrational"><![CDATA[...]]></entry>
+	
+	<!-- Irrational: Block Retreat -->
+    <entry id="soulbound+str_block_combat_retreat_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_combat_retreat_irrational"><![CDATA[...]]></entry>
+	
+	<!-- Irrational: Self was hit by an enemy-->
+    <entry id="soulbound+str_comment_self_hit_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_self_hit_irrational"><![CDATA[...]]></entry>
+		
+	<!-- Irrational: Ally was hit by an enemy -->
+    <entry id="soulbound+str_comment_ally_hit_irrational"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_ally_hit_irrational"><![CDATA[...]]></entry>
+
+
+
+	<!-- Refracted (Color of Madness only) --> 
+	<entry id="soulbound+str_afflicted_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Stress Camp --> 
+    <entry id="soulbound+str_bark_stress_camp_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_bark_stress_camp_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_bark_stress_camp_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Stress Bark --> 
+    <entry id="soulbound+str_bark_stress_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_bark_stress_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_bark_stress_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Move Backwards --> 
+    <entry id="soulbound+str_change_pos_back_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_change_pos_back_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_change_pos_back_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Move Forwards --> 
+    <entry id="soulbound+str_change_pos_fwd_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_change_pos_fwd_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_change_pos_fwd_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Ignore Command --> 
+    <entry id="soulbound+str_ignore_command_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_ignore_command_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_ignore_command_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Attack Ally --> 
+    <entry id="soulbound+str_attack_friendly_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_attack_friendly_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_attack_friendly_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Attack Self --> 
+    <entry id="soulbound+str_attack_self_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_attack_self_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_attack_self_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Mark Self --> 
+    <entry id="soulbound+str_mark_self_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_mark_self_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_mark_self_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Self was Hit by an enemy --> 
+    <entry id="soulbound+str_comment_self_hit_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_self_hit_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_self_hit_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Ally was Hit by an enemy --> 
+    <entry id="soulbound+str_comment_ally_hit_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_ally_hit_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_ally_hit_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Ally Attack Hit --> 
+    <entry id="soulbound+str_comment_ally_attack_hit_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_ally_attack_hit_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_ally_attack_hit_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Move Self (either direction?) --> 
+    <entry id="soulbound+str_comment_move_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_move_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_move_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Interaction with Curio --> 
+    <entry id="soulbound+str_comment_curio_interaction_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_curio_interaction_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_curio_interaction_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Trap Triggered --> 
+    <entry id="soulbound+str_comment_trap_triggered_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_trap_triggered_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Block Camp Meal --> 
+    <entry id="soulbound+str_block_camping_meal_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_camping_meal_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_camping_meal_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Heart Attack --> 
+    <entry id="soulbound+str_heart_attack_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_heart_attack_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_heart_attack_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Hero will block being the target of a camp skill --> 
+    <entry id="soulbound+str_block_camping_skill_target_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_camping_skill_target_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_camping_skill_target_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Hero will refuse to perform a camp skill --> 
+    <entry id="soulbound+str_block_camping_skill_performer_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_camping_skill_performer_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_camping_skill_performer_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Block Heal --> 
+    <entry id="soulbound+str_block_heal_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_heal_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_heal_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Block Buff --> 
+    <entry id="soulbound+str_block_buff_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_buff_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_buff_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Block Effect --> 
+    <entry id="soulbound+str_block_effect_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_effect_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_effect_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Consume Item --> 
+    <entry id="soulbound+str_consume_item_color_madness"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_consume_item_color_madness"><![CDATA[...]]></entry>
+	
+	<!-- Refracted: Roster List --> 
+    <entry id="soulbound+str_roster_list_color_madness_bark"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_roster_list_color_madness_bark"><![CDATA[...]]></entry>
+
+	
+
+
+	<!-- VIRTUED -->
+
+
+	<!-- Courageous -->
+	
+    <entry id="soulbound+str_virtued_courageous"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_virtued_courageous"><![CDATA[...]]></entry>
+	
+	<!-- Courageous: Heal Party -->
+    <entry id="soulbound+str_stress_heal_party_courageous"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_stress_heal_party_courageous"><![CDATA[...]]></entry>
+	
+	
+	
+
+	<!-- Party Names -->
+
+
+
+	
+	<!-- Subtitles -->
+
+
+
+
+	<!-- Crimson Court Stuff -->
+	
+	<!-- Prisoner -->
+	<entry id="soulbound+str_prisoner_help_me"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_prisoner_rescue_thanks"><![CDATA[...]]></entry>
+	
+
+	<!-- Crimson Curse -->
+
+
+    <!--PASSIVE: Interacted with curio-->
+	<entry id="soulbound+trigger_curio_quirk_disease_vampire_passive"><![CDATA[...]]></entry>
+
+
+    <!--CRAVING-->
+
+    <!--CRAVING: Change Position Forward-->
+    <entry id="soulbound+str_change_pos_fwd_disease_vampire_crave"><![CDATA[...]]></entry>
+    
+    <!--CRAVING: Ally was hit-->
+    <entry id="soulbound+str_comment_ally_hit_disease_vampire_crave"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_ally_hit_disease_vampire_crave"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_ally_hit_disease_vampire_crave"><![CDATA[...]]></entry>
+    
+    <!--CRAVING: Curio interaction-->
+    <entry id="soulbound+str_comment_curio_interaction_disease_vampire_crave"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_curio_interaction_disease_vampire_crave"><![CDATA[...]]></entry>
+    
+    <!--CRAVING: Trap triggered-->
+    <entry id="soulbound+str_comment_trap_triggered_disease_vampire_crave"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_trap_triggered_disease_vampire_crave"><![CDATA[...]]></entry>
+    
+    <!--CRAVING: Block move-->
+    <entry id="soulbound+str_block_move_disease_vampire_crave"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_move_disease_vampire_crave"><![CDATA[...]]></entry>
+    
+    <!--CRAVING: Attack ally-->
+    <entry id="soulbound+str_attack_friendly_disease_vampire_crave"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_attack_friendly_disease_vampire_crave"><![CDATA[...]]></entry>
+    
+    <!--CRAVING: Stress party-->
+    <entry id="soulbound+str_bark_stress_disease_vampire_crave"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_bark_stress_disease_vampire_crave"><![CDATA[...]]></entry>
+    
+    <!--CRAVING: Block buff-->
+    <entry id="soulbound+str_block_buff_disease_vampire_crave"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_buff_disease_vampire_crave"><![CDATA[...]]></entry>
+    
+    <!--CRAVING: Block camping meal-->
+    <entry id="soulbound+str_block_camping_meal_disease_vampire_crave"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_camping_meal_disease_vampire_crave"><![CDATA[...]]></entry>
+    
+    <!--CRAVING: Block heal-->
+    <entry id="soulbound+str_block_heal_disease_vampire_crave"><![CDATA[...]]></entry>
+    
+    <!--CRAVING: Ignore command-->
+    <entry id="soulbound+str_ignore_command_disease_vampire_crave"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_ignore_command_disease_vampire_crave"><![CDATA[...]]></entry>
+    
+    <!--CRAVING: Interacted with curio-->
+    <entry id="soulbound+trigger_curio_quirk_disease_vampire_crave"><![CDATA[...]]></entry>
+
+
+
+    <!--WASTING-->
+
+    <!--WASTING: Curio interaction-->
+    <entry id="soulbound+str_comment_curio_interaction_disease_vampire_wasting"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_curio_interaction_disease_vampire_wasting"><![CDATA[...]]></entry>
+
+    <!--WASTING: Trap Triggered-->
+    <entry id="soulbound+str_comment_trap_triggered_disease_vampire_wasting"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_trap_triggered_disease_vampire_wasting"><![CDATA[...]]></entry>
+   
+    <!--WASTING: Attack self-->
+	<entry id="soulbound+str_attack_self_disease_vampire_wasting"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_attack_self_disease_vampire_wasting"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_attack_self_disease_vampire_wasting"><![CDATA[...]]></entry>
+   
+    <!--WASTING: Attack ally-->
+    <entry id="soulbound+str_attack_friendly_disease_vampire_wasting"><![CDATA[...]]></entry>
+   
+    <!--WASTING: Stress party-->
+    <entry id="soulbound+str_bark_stress_disease_vampire_wasting"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_bark_stress_disease_vampire_wasting"><![CDATA[...]]></entry>
+   
+    <!--WASTING: Block heal-->
+    <entry id="soulbound+str_block_heal_disease_vampire_wasting"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_heal_disease_vampire_wasting"><![CDATA[...]]></entry>
+   
+    <!--WASTING: Block buff-->
+    <entry id="soulbound+str_block_buff_disease_vampire_wasting"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_buff_disease_vampire_wasting"><![CDATA[...]]></entry>
+    
+    <!--WASTING: Block camping meal-->
+    <entry id="soulbound+str_block_camping_meal_disease_vampire_wasting"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_camping_meal_disease_vampire_wasting"><![CDATA[...]]></entry>
+    
+    <!--WASTING: Block move-->
+    <entry id="soulbound+str_block_move_disease_vampire_wasting"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_move_disease_vampire_wasting"><![CDATA[...]]></entry>
+   
+    <!--WASTING: Ignore command-->
+    <entry id="soulbound+str_ignore_command_disease_vampire_wasting"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_ignore_command_disease_vampire_wasting"><![CDATA[...]]></entry>
+   
+    <!--WASTING: Interacted with curio-->
+    <entry id="soulbound+trigger_curio_quirk_disease_vampire_wasting"><![CDATA[...]]></entry>
+
+
+
+    <!--BLOODLUST-->
+
+
+    <!--BLOODLUST: Change Position Forward-->
+	<entry id="soulbound+str_change_pos_fwd_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+
+    <!--BLOODLUST: Ally was hit-->
+    <entry id="soulbound+str_comment_ally_hit_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_ally_hit_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_comment_ally_hit_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+
+    <!--BLOODLUST: Random command-->
+	<entry id="soulbound+str_random_command_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_random_command_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_random_command_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+
+    <!--BLOODLUST: Stress heal self-->
+    <entry id="soulbound+str_stress_heal_self_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_stress_heal_self_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_stress_heal_self_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+
+    <!--BLOODLUST: Attack ally-->
+	<entry id="soulbound+str_attack_friendly_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_attack_friendly_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+
+    <!--BLOODLUST: Stress party-->
+	<entry id="soulbound+str_bark_stress_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_bark_stress_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_bark_stress_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+
+    <!--BLOODLUST: Block buff-->
+    <entry id="soulbound+str_block_buff_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_buff_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_buff_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+
+    <!--BLOODLUST: Block combat retreat-->
+    <entry id="soulbound+str_block_combat_retreat_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_combat_retreat_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+
+    <!--BLOODLUST: Block heal-->
+    <entry id="soulbound+str_block_heal_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+    <entry id="soulbound+str_block_heal_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+
+    <!--BLOODLUST: Ignore command-->
+	<entry id="soulbound+str_ignore_command_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+
+
+
+    <!--TRANSITIONS-->
+
+    <!--Bloodlust to Passive-->
+    <entry id="soulbound+quirk_transition_disease_vampire_blood_lust_to_disease_vampire_passive"><![CDATA[...]]></entry>
+    <!--Passive to Craving-->
+    <entry id="soulbound+quirk_transition_disease_vampire_passive_to_disease_vampire_crave"><![CDATA[...]]></entry>
+    <!--Craving to Bloodlust-->
+    <entry id="soulbound+quirk_transition_disease_vampire_crave_to_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+    <!--Craving to Wasting-->
+    <entry id="soulbound+quirk_transition_disease_vampire_crave_to_disease_vampire_wasting"><![CDATA[...]]></entry>
+    <!--Wasting to Passive-->
+    <entry id="soulbound+quirk_transition_disease_vampire_wasting_to_disease_vampire_passive"><![CDATA[...]]></entry>
+    <!--Death by Wasting-->
+	<entry id="soulbound+quirk_evolution_death_disease_vampire_wasting"><![CDATA[...]]></entry>
+
+
+
+	<!-- Monster Attacks -->
+
+    <!-- OOOO SPOILER: It's the Heart of Darkness's insta-kill skill and you get to choose which hero dies. They will say this when you hover over them -->
+    <entry id="soulbound+str_monster_user_selected_targets_kill_pill"><![CDATA[The wheel of fate is turning and rearing it's ugly head on it's last option!!]]></entry>
+
+    </language>
+</root>

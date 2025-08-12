@@ -1,0 +1,190 @@
+{
+    "entries":
+    [
+        {
+            "id": "soulbound_tendril1",
+            "update_duration_type": "after_turn_attack",
+            "duration_elements": 
+            [
+                {
+                    "completion_chance": 0.0,
+                    "completion_effects":
+                    [
+                    ],
+                    "increment_effects":
+                    [
+                        "daveAD_damage1"
+                    ]
+                },
+                {
+                    "completion_chance": 0.0,
+                    "completion_effects":
+                    [
+                    ],
+                    "increment_effects":
+                    [
+                        "daveAD_damage1"
+                    ]
+                },
+                {
+                    "completion_chance": 1.00,
+                    "completion_effects":
+                    [
+                        "daveAD_damage1"
+                    ],
+                    "increment_effects":
+                    [
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "soulbound_tendril2",
+            "update_duration_type": "after_turn_attack",
+            "duration_elements": 
+            [
+                {
+                    "completion_chance": 0.0,
+                    "completion_effects":
+                    [
+                    ],
+                    "increment_effects":
+                    [
+                        "daveAD_damage2"
+                    ]
+                },
+                {
+                    "completion_chance": 0.0,
+                    "completion_effects":
+                    [
+                    ],
+                    "increment_effects":
+                    [
+                        "daveAD_damage2"
+                    ]
+                },
+                {
+                    "completion_chance": 1.00,
+                    "completion_effects":
+                    [
+                        "daveAD_damage2"
+                    ],
+                    "increment_effects":
+                    [
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "soulbound_tendril3",
+            "update_duration_type": "after_turn_attack",
+            "duration_elements": 
+            [
+                {
+                    "completion_chance": 0.0,
+                    "completion_effects":
+                    [
+                    ],
+                    "increment_effects":
+                    [
+                        "daveAD_damage3"
+                    ]
+                },
+                {
+                    "completion_chance": 0.0,
+                    "completion_effects":
+                    [
+                    ],
+                    "increment_effects":
+                    [
+                        "daveAD_damage3"
+                    ]
+                },
+                {
+                    "completion_chance": 1.00,
+                    "completion_effects":
+                    [
+                        "daveAD_damage3"
+                    ],
+                    "increment_effects":
+                    [
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "soulbound_tendril4",
+            "update_duration_type": "after_turn_attack",
+            "duration_elements": 
+            [
+                {
+                    "completion_chance": 0.0,
+                    "completion_effects":
+                    [
+                    ],
+                    "increment_effects":
+                    [
+                        "daveAD_damage4"
+                    ]
+                },
+                {
+                    "completion_chance": 0.0,
+                    "completion_effects":
+                    [
+                    ],
+                    "increment_effects":
+                    [
+                        "daveAD_damage4"
+                    ]
+                },
+                {
+                    "completion_chance": 1.00,
+                    "completion_effects":
+                    [
+                        "daveAD_damage4"
+                    ],
+                    "increment_effects":
+                    [
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "soulbound_tendril5",
+            "update_duration_type": "after_turn_attack",
+            "duration_elements": 
+            [
+                {
+                    "completion_chance": 0.0,
+                    "completion_effects":
+                    [
+                    ],
+                    "increment_effects":
+                    [
+                        "daveAD_damage5"
+                    ]
+                },
+                {
+                    "completion_chance": 0.0,
+                    "completion_effects":
+                    [
+                    ],
+                    "increment_effects":
+                    [
+                        "daveAD_damage5"
+                    ]
+                },
+                {
+                    "completion_chance": 1.00,
+                    "completion_effects":
+                    [
+                        "daveAD_damage5"
+                    ],
+                    "increment_effects":
+                    [
+                    ]
+                }
+            ]
+        }
+    ]
+}

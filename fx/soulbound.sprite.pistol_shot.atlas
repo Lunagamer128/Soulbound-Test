@@ -1,0 +1,97 @@
+
+soulbound.sprite.pistol_shot.png
+size: 1025,835
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+smoke_orange
+  rotate: false
+  xy: 769, 587
+  size: 184, 181
+  orig: 184, 181
+  offset: 0, 0
+  index: -1
+smoke
+  rotate: false
+  xy: 583, 587
+  size: 184, 181
+  orig: 184, 181
+  offset: 0, 0
+  index: -1
+shot
+  rotate: false
+  xy: 680, 770
+  size: 151, 37
+  orig: 151, 37
+  offset: 0, 0
+  index: -1
+muzzle_flash
+  rotate: false
+  xy: 583, 770
+  size: 95, 63
+  orig: 95, 63
+  offset: 0, 0
+  index: -1
+sparks01
+  rotate: false
+  xy: 872, 770
+  size: 37, 27
+  orig: 37, 27
+  offset: 0, 0
+  index: -1
+sparks02
+  rotate: false
+  xy: 946, 770
+  size: 27, 23
+  orig: 27, 23
+  offset: 0, 0
+  index: -1
+sparks03
+  rotate: false
+  xy: 833, 770
+  size: 37, 30
+  orig: 37, 30
+  offset: 0, 0
+  index: -1
+sparks04
+  rotate: false
+  xy: 975, 794
+  size: 25, 19
+  orig: 25, 19
+  offset: 0, 0
+  index: -1
+sparks05
+  rotate: false
+  xy: 911, 770
+  size: 33, 26
+  orig: 33, 26
+  offset: 0, 0
+  index: -1
+sparks06
+  rotate: false
+  xy: 975, 770
+  size: 25, 22
+  orig: 25, 22
+  offset: 0, 0
+  index: -1
+sparks07
+  rotate: false
+  xy: 1002, 770
+  size: 21, 26
+  orig: 21, 26
+  offset: 0, 0
+  index: -1
+highwayman
+  rotate: false
+  xy: 1, 1
+  size: 654, 584
+  orig: 654, 584
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 1, 587
+  size: 580, 188
+  orig: 580, 188
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,580 @@
+{
+	"buffs": [
+		{
+			"id": "dave_cooldown_buffTT",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_cooldown_buffTT",
+			"amount": 0,
+			"remove_if_not_active": false,
+			"remove_on_battle_complete": true,
+			"is_clear_debuff_valid": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_cooldown_skillTT",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_cooldown_skillTT",
+			"amount": 0,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_cooldown_buff2TT",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_cooldown_buff2TT",
+			"amount": 0,
+			"remove_if_not_active": false,
+			"remove_on_battle_complete": true,
+			"is_clear_debuff_valid": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_cooldown_skill2TT",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_cooldown_skill2TT",
+			"amount": 0,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_coilTargetTT",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_coilTargetTT",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_dmgTT_4",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_dmgTT_4",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_dmgTT_5",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_dmgTT_5",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_dmgTT_6",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_dmgTT_6",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_dmgTT_7",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_dmgTT_7",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_dmgTT_8",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_dmgTT_8",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_dmgTT_9",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_dmgTT_9",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_dmgTT_10",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_dmgTT_10",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_riposteTT",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_riposteTT",
+            "amount": 1,
+            "remove_if_not_active": true,
+            "rule_type": "hpbelow",
+            "is_false_rule": false,
+            "rule_data": {
+                "float": 0.50,
+                "string": ""
+			}
+		},
+		{
+			"id": "dave_pactTT",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_pactTT",
+			"amount": 1,
+			"remove_if_not_active": true,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_dmgTT_Half1",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_dmgTT_Half1",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_dmgTT_Half2",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_dmgTT_Half2",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_dmgTT_Half3",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_dmgTT_Half3",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_dmgTT_Half4",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_dmgTT_Half4",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_dmgTT_Half5",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_dmgTT_Half5",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_zerospace",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_zerospace",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_empty",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_empty",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_riposteSTATS1",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_riposteSTATS1",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_riposteSTATS2",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_riposteSTATS2",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_riposteSTATS3",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_riposteSTAT31",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_riposteSTATS4",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_riposteSTATS4",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_riposteSTATS5",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_riposteSTATS5",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_windTT_1",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_windTT_1",
+			"amount": 0.05,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_windTT_2",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_windTT_2",
+			"amount": 0.05,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_windTT_3",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_windTT_3",
+			"amount": 0.05,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_windTT_4",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_windTT_4",
+			"amount": 0.05,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_windTT_5",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_windTT_5",
+			"amount": 0.05,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_windTT_12",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_windTT_12",
+			"amount": 0.05,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_windTT_22",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_windTT_22",
+			"amount": 0.05,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_windTT_32",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_windTT_32",
+			"amount": 0.05,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_windTT_42",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_windTT_42",
+			"amount": 0.05,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_windTT_52",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_windTT_52",
+			"amount": 0.05,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_destealthTT",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_destealthTT",
+			"amount": 0.05,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_plungeTT",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_plungeTT",
+			"amount": 0.05,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_plungeTT2",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_plungeTT2",
+			"amount": 0.05,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_plungeDODGETT1",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_plungeDODGETT1",
+			"amount": 0.05,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_plungeDODGETT2",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_plungeDODGETT2",
+			"amount": 0.05,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_plungeDODGETT3",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_plungeDODGETT3",
+			"amount": 0.05,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_plungeDODGETT4",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_plungeDODGETT4",
+			"amount": 0.05,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_plungeDODGETT5",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "dave_plungeDODGETT5",
+			"amount": 0.05,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		}
+	]
+}

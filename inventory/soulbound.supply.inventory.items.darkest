@@ -1,0 +1,2 @@
+inventory_item: .type "supply"  .id "dave_dagonfish"    .base_stack_limit 12    .purchase_gold_value 0	.sell_gold_value 100    .estate_can_be_provision true
+inventory_item: .type "supply"  .id "dave_gambit_winner"    .base_stack_limit 12    .purchase_gold_value 0	.sell_gold_value 0    .estate_can_be_provision false

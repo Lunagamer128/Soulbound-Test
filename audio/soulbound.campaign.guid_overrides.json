@@ -1,0 +1,7 @@
+{
+    "event_guid_overrides":
+    [
+        {"event_id": "event:/general/status/buff_fx_TempleBuffFX_onset",    "guid_override":"{6466e607-5f94-438d-b33b-e1badc2fa33f}"},
+        {"event_id": "event:/general/status/buff_fx_TempleBuffFX_exit_onset",    "guid_override":"{d1946e66-9354-4f23-bb4e-f89361b57914}"}
+    ]
+}

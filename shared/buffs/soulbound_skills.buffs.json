@@ -1,0 +1,829 @@
+{
+	"buffs": [
+		{
+			"id": "dave_momentHP",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "max_hp",
+			"amount": 0.15,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_dazeDISABLE",
+			"stat_type": "disable_combat_skill_attribute",
+			"stat_sub_type": "daze",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"remove_on_battle_complete": true,
+			"is_clear_debuff_valid": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"has_description": false
+		},
+		{
+			"id": "dave_markDISABLE",
+			"stat_type": "disable_combat_skill_attribute",
+			"stat_sub_type": "guard",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"remove_on_battle_complete": true,
+			"is_clear_debuff_valid": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"has_description": false
+		},
+		{
+			"id": "dave_manBUFF1",
+			"stat_type": "hp_dot_bleed_amount_percent",
+			"stat_sub_type": "",
+			"amount": 0.67,
+			"remove_if_not_active": false,
+			"rule_type": "hpbelow",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0.50,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_manBUFF2",
+			"stat_type": "hp_dot_bleed_amount_percent",
+			"stat_sub_type": "",
+			"amount": -0.67,
+			"remove_if_not_active": false,
+			"rule_type": "hpbelow",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0.50,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_blastELDRITCH1_H",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": 0.15,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "eldritch"
+			}
+		},
+		{
+			"id": "dave_blastELDRITCH1_L",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": 0.15,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "eldritch"
+			}
+		},
+		{
+			"id": "dave_blastELDRITCH2_H",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": 0.20,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "eldritch"
+			}
+		},
+		{
+			"id": "dave_blastELDRITCH2_L",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": 0.20,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "eldritch"
+			}
+		},
+		{
+			"id": "dave_blastELDRITCH3_H",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": 0.25,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "eldritch"
+			}
+		},
+		{
+			"id": "dave_blastELDRITCH3_L",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": 0.25,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "eldritch"
+			}
+		},
+		{
+			"id": "dave_blastELDRITCH4_H",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": 0.30,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "eldritch"
+			}
+		},
+		{
+			"id": "dave_blastELDRITCH4_L",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": 0.30,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "eldritch"
+			}
+		},
+		{
+			"id": "dave_blastELDRITCH5_H",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": 0.35,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "eldritch"
+			}
+		},
+		{
+			"id": "dave_blastELDRITCH5_L",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": 0.35,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "eldritch"
+			}
+		},
+        {
+			"id": "dave_riposte_hit",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "riposte_on_hit_chance",
+			"amount": 1,
+			"duration": 3,
+			"duration_type": "round",
+			"remove_if_not_active": false,
+			"remove_on_battle_complete": true,
+			"rule_type": "hpbelow",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0.5,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_riposte_miss",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "riposte_on_miss_chance",
+			"amount": 1,
+			"duration": 3,
+			"duration_type": "round",
+			"remove_if_not_active": false,
+			"remove_on_battle_complete": true,
+			"rule_type": "hpbelow",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0.5,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_riposte_acc_1",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "attack_rating",
+			"amount": 0.05,
+			"duration": 3,
+			"duration_type": "round",
+			"remove_if_not_active": false,
+			"remove_on_battle_complete": true,
+			"rule_type": "riposte",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_riposte_acc_2",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "attack_rating",
+			"amount": 0.1,
+			"duration": 3,
+			"duration_type": "round",
+			"remove_if_not_active": false,
+			"remove_on_battle_complete": true,
+			"rule_type": "riposte",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_riposte_acc_3",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "attack_rating",
+			"amount": 0.15,
+			"duration": 3,
+			"duration_type": "round",
+			"remove_if_not_active": false,
+			"remove_on_battle_complete": true,
+			"rule_type": "riposte",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_riposte_acc_4",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "attack_rating",
+			"amount": 0.2,
+			"duration": 3,
+			"duration_type": "round",
+			"remove_if_not_active": false,
+			"remove_on_battle_complete": true,
+			"rule_type": "riposte",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_riposte_crit_1",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "crit_chance",
+			"amount": 0.05,
+			"duration": 3,
+			"duration_type": "round",
+			"remove_if_not_active": false,
+			"remove_on_battle_complete": true,
+			"rule_type": "riposte",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_riposte_crit_2",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "crit_chance",
+			"amount": 0.06,
+			"duration": 3,
+			"duration_type": "round",
+			"remove_if_not_active": false,
+			"remove_on_battle_complete": true,
+			"rule_type": "riposte",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_riposte_crit_3",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "crit_chance",
+			"amount": 0.07,
+			"duration": 3,
+			"duration_type": "round",
+			"remove_if_not_active": false,
+			"remove_on_battle_complete": true,
+			"rule_type": "riposte",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_riposte_crit_4",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "crit_chance",
+			"amount": 0.08,
+			"duration": 3,
+			"duration_type": "round",
+			"remove_if_not_active": false,
+			"remove_on_battle_complete": true,
+			"rule_type": "riposte",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_riposte_crit_5",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "crit_chance",
+			"amount": 0.09,
+			"duration": 3,
+			"duration_type": "round",
+			"remove_if_not_active": false,
+			"remove_on_battle_complete": true,
+			"rule_type": "riposte",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_coilDMGRE",
+			"stat_type": "damage_received_percent",
+			"stat_sub_type": "",
+			"amount": -0.15,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_coilPROT",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.15,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_coilSPEED1",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "speed_rating",
+			"amount": 2,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_coilSPEED2",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "speed_rating",
+			"amount": 3,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_coilSPEED3",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "speed_rating",
+			"amount": 4,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_coilSPEED4",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "speed_rating",
+			"amount": 5,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_coilSPEED5",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "speed_rating",
+			"amount": 6,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_hurtieDMG_L",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": 0.30,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_hurtieDMG_H",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": 0.30,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_hurtieCRIT1",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "crit_chance",
+			"amount": 0.06,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_hurtieCRIT2",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "crit_chance",
+			"amount": 0.08,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_hurtieCRIT3",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "crit_chance",
+			"amount": 0.10,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_hurtieCRIT4",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "crit_chance",
+			"amount": 0.12,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_hurtieCRIT5",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "crit_chance",
+			"amount": 0.14,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_push_pos_3",
+			"stat_type": "resistance",
+			"stat_sub_type": "move",
+			"amount": 10,
+			"duration": 1,
+			"duration_type": "round",
+			"remove_if_not_active": false,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 2,
+				"string": ""
+			},
+			"has_description":false
+		},
+		{
+			"id": "dave_push_pos_4",
+			"stat_type": "resistance",
+			"stat_sub_type": "move",
+			"amount": 10,
+			"duration": 1,
+			"duration_type": "round",
+			"remove_if_not_active": false,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 3,
+				"string": ""
+			},
+			"has_description":false
+		},
+		{
+			"id": "dave_unpush_pos_3",
+			"stat_type": "resistance",
+			"stat_sub_type": "move",
+			"amount": -10,
+			"duration": 1,
+			"duration_type": "round",
+			"remove_if_not_active": false,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 2,
+				"string": ""
+			},
+			"has_description":false
+		},
+		{
+			"id": "dave_unpush_pos_4",
+			"stat_type": "resistance",
+			"stat_sub_type": "move",
+			"amount": -10,
+			"duration": 1,
+			"duration_type": "round",
+			"remove_if_not_active": false,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 3,
+				"string": ""
+			},
+			"has_description":false
+		},
+		{
+			"id": "dave_push_pos_1",
+			"stat_type": "resistance",
+			"stat_sub_type": "move",
+			"amount": 10,
+			"duration": 1,
+			"duration_type": "round",
+			"remove_if_not_active": false,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"has_description":false
+		},
+		{
+			"id": "dave_push_pos_2",
+			"stat_type": "resistance",
+			"stat_sub_type": "move",
+			"amount": 10,
+			"duration": 1,
+			"duration_type": "round",
+			"remove_if_not_active": false,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 1,
+				"string": ""
+			},
+			"has_description":false
+		},
+		{
+			"id": "dave_unpush_pos_1",
+			"stat_type": "resistance",
+			"stat_sub_type": "move",
+			"amount": -10,
+			"duration": 1,
+			"duration_type": "round",
+			"remove_if_not_active": false,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"has_description":false
+		},
+		{
+			"id": "dave_unpush_pos_2",
+			"stat_type": "resistance",
+			"stat_sub_type": "move",
+			"amount": -10,
+			"duration": 1,
+			"duration_type": "round",
+			"remove_if_not_active": false,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 1,
+				"string": ""
+			},
+			"has_description":false
+		},
+		{
+			"id": "dave_markBUFF",
+			"stat_type": "ignore_protection",
+			"stat_sub_type": "",
+			"amount": 0.50,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_plungeBUFF",
+			"stat_type": "debuff_chance",
+			"stat_sub_type": "",
+			"amount": 5.00,
+			"duration": 1,
+			"duration_type": "round",
+			"remove_if_not_active": false,
+			"rule_type": "hpbelow",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0.50,
+				"string": ""
+			},
+			"has_description":false
+		},
+		{
+			"id": "dave_plungeDODGE1",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "defense_rating",
+			"amount": -0.15,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0.00,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_plungeDODGE2",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "defense_rating",
+			"amount": -0.16,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0.00,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_plungeDODGE3",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "defense_rating",
+			"amount": -0.17,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0.00,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_plungeDODGE4",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "defense_rating",
+			"amount": -0.18,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0.00,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_plungeDODGE5",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "defense_rating",
+			"amount": -0.20,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0.00,
+				"string": ""
+			}
+		},
+		{
+			"id": "dave_plungeDEBUFF",
+			"stat_type": "debuff_chance",
+			"stat_sub_type": "",
+			"amount": -5.00,
+			"duration": 1,
+			"duration_type": "round",
+			"remove_if_not_active": false,
+			"rule_type": "hpbelow",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0.50,
+				"string": ""
+			},
+			"has_description":false
+		},
+		{
+			"id": "dave_buffTEST",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "TempleBuffFX",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0.00,
+				"string": ""
+			},
+			"fx": "TempleBuffFX"
+		},
+		{
+			"id": "dave_buffTEST2",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "TempleBuffFX_exit",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0.00,
+				"string": ""
+			},
+			"fx": "TempleBuffFX_exit"
+		}
+	]
+}

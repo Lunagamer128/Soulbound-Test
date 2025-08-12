@@ -1,0 +1,220 @@
+//on crit
+effect: .name "dave_crit" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 2	.on_hit true .on_miss false .buff_source_type bsrc_crit .apply_once true
+
+// MODE SWAPS
+effect: .name "dave_under25"  .target "performer" .set_mode dave_serious  .chance 100% .on_hit true .on_miss true .buff_ids "dave_under25_DMGL" "dave_under25_DMGH" "dave_under25_DMGREC" "dave_under25_DB"
+effect: .name "dave_over25"  .target "performer" .set_mode dave_default  .chance 100% .on_hit true .on_miss true 
+
+//testy test
+effect: .name "dave_buffTEST" .target "performer" .chance 100% .buff_ids "dave_buffTEST" .skill_instant true
+effect: .name "dave_buffTEST2" .target "performer" .chance 100% .buff_ids "dave_buffTEST2" .skill_instant true
+
+
+// you know what that means! FISH-
+effect: .name "dave_dagonfish"  .target "target" .item 1 .chance 100% .heal_percent 15% .stress 5
+
+
+// its not my fault if people dont read the item tooltips and try and give their op anime mod +40% damage
+effect: .name "dave_gambit_winner"  .target "target" .item 1 .chance 100% .buff_ids "dave_gambit_winner1" "dave_gambit_winner2" "dave_gambit_winner3" "dave_gambit_winner4"
+
+
+// self damage tooltips because this game hates giving consise information
+effect: .name "dave_DMG_TT4" .target "performer" .chance 100%  .buff_ids "dave_dmgTT_4" .skill_instant true
+effect: .name "dave_DMG_TT5" .target "performer" .chance 100%  .buff_ids "dave_dmgTT_5" .skill_instant true
+effect: .name "dave_DMG_TT6" .target "performer" .chance 100%  .buff_ids "dave_dmgTT_6" .skill_instant true
+effect: .name "dave_DMG_TT7" .target "performer" .chance 100%  .buff_ids "dave_dmgTT_7" .skill_instant true
+effect: .name "dave_DMG_TT8" .target "performer" .chance 100%  .buff_ids "dave_dmgTT_8" .skill_instant true
+effect: .name "dave_DMG_TT9" .target "performer" .chance 100%  .buff_ids "dave_dmgTT_9" .skill_instant true
+effect: .name "dave_DMG_TT10" .target "performer" .chance 100%  .buff_ids "dave_dmgTT_10" .skill_instant true
+
+effect: .name "dave_DMG_TTHalf1" .target "performer" .chance 100%  .buff_ids "dave_dmgTT_Half1" .skill_instant true
+effect: .name "dave_DMG_TTHalf2" .target "performer" .chance 100%  .buff_ids "dave_dmgTT_Half2" .skill_instant true
+effect: .name "dave_DMG_TTHalf3" .target "performer" .chance 100%  .buff_ids "dave_dmgTT_Half3" .skill_instant true
+effect: .name "dave_DMG_TTHalf4" .target "performer" .chance 100%  .buff_ids "dave_dmgTT_Half4" .skill_instant true
+effect: .name "dave_DMG_TTHalf5" .target "performer" .chance 100%  .buff_ids "dave_dmgTT_Half5" .skill_instant true
+
+
+// sasiji's black magic
+// this didnt work, will try again later
+effect: .name "dave_zerospace1" .target "performer" .chance 100% .on_hit true .on_miss true .buff_ids "dave_zerospace" 
+effect: .name "dave_zerospace2" .target "performer" .chance 100% .on_hit true .on_miss true .buff_ids "dave_zerospace" .skill_instant true
+effect: .name "dave_zerospace3" .target "performer" .chance 100% .on_hit true .on_miss true .buff_ids "dave_zerospace" .skill_instant true
+effect: .name "dave_zerospace4" .target "performer" .chance 100% .on_hit true .on_miss true .buff_ids "dave_zerospace" .skill_instant true
+effect: .name "dave_zerospace5" .target "performer" .chance 100% .on_hit true .on_miss true .buff_ids "dave_zerospace" .skill_instant true
+effect: .name "dave_zerospace6" .target "performer" .chance 100% .on_hit true .on_miss true .buff_ids "dave_zerospace"
+effect: .name "dave_zerospace7" .target "performer" .chance 100% .on_hit true .on_miss true .buff_ids "dave_zerospace" 
+
+effect: .name "dave_emptyTT" .target "performer" .chance 100% .on_hit true .on_miss true .buff_ids "dave_empty" .skill_instant true
+
+
+// hehe hp go BRRRRRRRRRRRRRRR
+effect: .name "dave_momentHP1" .target "performer" .chance 100% .heal 8  .buff_ids "dave_momentHP" .on_hit true .on_miss false
+effect: .name "dave_momentHP2" .target "performer" .chance 100% .heal 9  .buff_ids "dave_momentHP" .on_hit true .on_miss false
+effect: .name "dave_momentHP3" .target "performer" .chance 100% .heal 10 .buff_ids "dave_momentHP" .on_hit true .on_miss false
+effect: .name "dave_momentHP4" .target "performer" .chance 100% .heal 11 .buff_ids "dave_momentHP" .on_hit true .on_miss false
+effect: .name "dave_momentHP5" .target "performer" .chance 100% .heal 12 .buff_ids "dave_momentHP" .on_hit true .on_miss false
+
+effect: .name "dave_momentSTRESS1" .target "performer" .chance 100% .healstress 4 .on_hit true .on_miss false 
+effect: .name "dave_momentSTRESS2" .target "performer" .chance 100% .healstress 4 .on_hit true .on_miss false 
+effect: .name "dave_momentSTRESS3" .target "performer" .chance 100% .healstress 5 .on_hit true .on_miss false
+effect: .name "dave_momentSTRESS4" .target "performer" .chance 100% .healstress 5 .on_hit true .on_miss false
+effect: .name "dave_momentSTRESS5" .target "performer" .chance 100% .healstress 6 .on_hit true .on_miss false 
+
+
+//Fake Daze - This Daze never applies, but still counts for the disable buff. If your hero has modes, be sure to have .valid_modes defined on that skill.
+effect: .name "dave_fake_daze" .target "performer" .chance 0% .on_hit false .on_miss false .daze 1 .has_description false
+
+//This effect applies the Daze disable buff - you can adjust the duration. Always add +1 to the actual duration you want. (If you want a 1 round cooldown, use .duration 2)
+effect: .name "dave_cooldown_buff" .target "performer" .chance 100%	.buff_ids "dave_dazeDISABLE" .on_hit true .on_miss true .duration 2 .has_description false
+//This effect applies a visible tooltip buff to your hero. It is not visible on the skill description. Match the duration with the Daze disable.
+effect: .name "dave_cooldown_tt_buff" .target "performer" .chance 100% .buff_ids "dave_cooldown_buffTT" .on_hit true .on_miss true .duration 2 .has_description false
+//This effect is for the skill description. 
+effect: .name "dave_cooldown_tt_skill" .target "performer" .chance 200%	.buff_ids "dave_cooldown_skillTT" .skill_instant true .on_hit false .on_miss false 
+
+
+//for eldritch blast, im lazy as shit
+effect: .name "dave_fake_mark" .target "performer" .chance -100% .on_hit false .on_miss false .guard 1 .has_description false
+effect: .name "dave_cooldown_buff2" .target "performer" .chance 100%	.buff_ids "dave_markDISABLE" .on_hit true .on_miss true .duration 2 .has_description false
+effect: .name "dave_cooldown_tt_buff2" .target "performer" .chance 100% .buff_ids "dave_cooldown_buff2TT" .on_hit true .on_miss true .duration 2 .has_description false
+effect: .name "dave_cooldown_tt_skill2" .target "performer" .chance 200%	.buff_ids "dave_cooldown_skill2TT" .skill_instant true .on_hit false .on_miss false 
+
+
+//His wings are too weak to get his fatass body off the ground. dave flies anyways
+effect: .name "dave_Push_Disable" .target "target" .chance 1000% .buff_ids "dave_push_pos_3" "dave_push_pos_4" .on_hit true .on_miss false .buff_is_clear_debuff_valid false .buff_source_type bsrc_notspecified .has_description false 
+effect: .name "dave_wind_Push1" .target "target" .chance 100% .push 2 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "dave_Push_Enable" .target "target" .chance 1000% .buff_ids "dave_unpush_pos_3" "dave_unpush_pos_4" .on_hit true .on_miss false .buff_is_clear_debuff_valid false .buff_source_type bsrc_notspecified .has_description false 
+
+effect: .name "dave_Pull_Disable" .target "target" .chance 1000% .buff_ids "dave_push_pos_1" "dave_push_pos_2" .on_hit true .on_miss false .buff_is_clear_debuff_valid false .buff_source_type bsrc_notspecified .has_description false 
+effect: .name "dave_wind_Pull1" .target "target" .chance 100% .pull 2 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "dave_Pull_Enable" .target "target" .chance 1000% .buff_ids "dave_unpush_pos_1" "dave_unpush_pos_2" .on_hit true .on_miss false .buff_is_clear_debuff_valid false .buff_source_type bsrc_notspecified .has_description false 
+
+effect: .name "dave_wind_Push2" .target "target" .chance 110% .push 2 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "dave_wind_Push3" .target "target" .chance 120% .push 2 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "dave_wind_Push4" .target "target" .chance 130% .push 2 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "dave_wind_Push5" .target "target" .chance 140% .push 2 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+
+effect: .name "dave_wind_Pull2" .target "target" .chance 110% .pull 2 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "dave_wind_Pull3" .target "target" .chance 120% .pull 2 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "dave_wind_Pull4" .target "target" .chance 130% .pull 2 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "dave_wind_Pull5" .target "target" .chance 140% .pull 2 .on_hit true .on_miss false .can_apply_on_death true .has_description false
+
+effect: .name "dave_wind_Tooltip1" .target "performer" .chance 100% .buff_ids "dave_windTT_1" "dave_windTT_12" "dave_destealthTT" .skill_instant true .on_hit true .on_miss false
+effect: .name "dave_wind_Tooltip2" .target "performer" .chance 100% .buff_ids "dave_windTT_2" "dave_windTT_22" "dave_destealthTT" .skill_instant true .on_hit true .on_miss false
+effect: .name "dave_wind_Tooltip3" .target "performer" .chance 100% .buff_ids "dave_windTT_3" "dave_windTT_32" "dave_destealthTT" .skill_instant true .on_hit true .on_miss false
+effect: .name "dave_wind_Tooltip4" .target "performer" .chance 100% .buff_ids "dave_windTT_4" "dave_windTT_42" "dave_destealthTT" .skill_instant true .on_hit true .on_miss false
+effect: .name "dave_wind_Tooltip5" .target "performer" .chance 100% .buff_ids "dave_windTT_5" "dave_windTT_52" "dave_destealthTT" .skill_instant true .on_hit true .on_miss false
+
+effect: .name "dave_windDESTEALTH" .target "target" .chance 100%  .on_hit true .on_miss false .unstealth 1 .has_description false
+//why the fuck do i mod this game, cant even just have this effect at the bottom of the skill normally
+effect: .name "dave_wind_destealthTT" .target "performer" .chance 100% .buff_ids "dave_destealthTT" .skill_instant true .on_hit true .on_miss false
+
+
+//eldritch blast more like eldritch BITCH-
+effect: .name "dave_blastELDRITCH1" .target "performer" .chance 100% .on_hit true .on_miss false .buff_ids "dave_blastELDRITCH1_H" "dave_blastELDRITCH1_L" .skill_instant true .duration 1
+effect: .name "dave_blastELDRITCH2" .target "performer" .chance 100% .on_hit true .on_miss false .buff_ids "dave_blastELDRITCH2_H" "dave_blastELDRITCH2_L" .skill_instant true .duration 1
+effect: .name "dave_blastELDRITCH3" .target "performer" .chance 100% .on_hit true .on_miss false .buff_ids "dave_blastELDRITCH3_H" "dave_blastELDRITCH3_L" .skill_instant true .duration 1
+effect: .name "dave_blastELDRITCH4" .target "performer" .chance 100% .on_hit true .on_miss false .buff_ids "dave_blastELDRITCH4_H" "dave_blastELDRITCH4_L" .skill_instant true .duration 1
+effect: .name "dave_blastELDRITCH5" .target "performer" .chance 100% .on_hit true .on_miss false .buff_ids "dave_blastELDRITCH5_H" "dave_blastELDRITCH5_L" .skill_instant true .duration 1
+
+
+//the abyssal minotaur is named MAN
+effect: .name "dave_manDMG1" .target "performer" .chance 100% .health_damage 6 .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "dave_manDMG2" .target "performer" .chance 100% .health_damage 7 .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "dave_manDMG3" .target "performer" .chance 100% .health_damage 8 .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "dave_manDMG4" .target "performer" .chance 100% .health_damage 9 .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "dave_manDMG5" .target "performer" .chance 100% .health_damage 10 .on_hit true .on_miss false .apply_once true .has_description false
+
+effect: .name "dave_manBUFF1" .target "performer" .chance 100% .buff_ids "dave_manBUFF1" .on_hit true .on_miss false .skill_instant true .duration 1 
+
+effect: .name "dave_manBLEED1" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "dave_manBLEED2" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "dave_manBLEED3" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "dave_manBLEED4" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "dave_manBLEED5" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true 
+
+effect: .name "dave_manBUFF2" .target "performer" .chance 100% .buff_ids "dave_manBUFF2" .on_hit true .on_miss false .skill_instant true .duration 1 .has_description false
+
+
+//now time to see if i remember how to do friendly skills (post woona confirms i did not)
+effect: .name "dave_coilSELF1" .target "performer" .chance 100% .heal 2 .on_hit true .on_miss true .apply_once true .buff_ids "dave_coilDMGRE" "dave_coilSPEED1"
+effect: .name "dave_coilSELF2" .target "performer" .chance 100% .heal 3 .on_hit true .on_miss true .apply_once true .buff_ids "dave_coilDMGRE" "dave_coilSPEED2"
+effect: .name "dave_coilSELF3" .target "performer" .chance 100% .heal 4 .on_hit true .on_miss true .apply_once true .buff_ids "dave_coilDMGRE" "dave_coilSPEED3"
+effect: .name "dave_coilSELF4" .target "performer" .chance 100% .heal 5 .on_hit true .on_miss true .apply_once true .buff_ids "dave_coilDMGRE" "dave_coilSPEED4"
+effect: .name "dave_coilSELF5" .target "performer" .chance 100% .heal 6 .on_hit true .on_miss true .apply_once true .buff_ids "dave_coilDMGRE" "dave_coilSPEED5"
+
+effect: .name "dave_coilTargetTT" .target "performer" .chance 100% .on_hit true .on_miss true .buff_ids "dave_coilTargetTT"
+
+effect: .name "dave_coilALLY1" .target "target" .chance 100% .on_hit true .on_miss true .apply_once true .buff_ids "dave_coilPROT" "dave_coilSPEED1" .has_description false
+effect: .name "dave_coilALLY2" .target "target" .chance 100% .on_hit true .on_miss true .apply_once true .buff_ids "dave_coilPROT" "dave_coilSPEED2" .has_description false
+effect: .name "dave_coilALLY3" .target "target" .chance 100% .on_hit true .on_miss true .apply_once true .buff_ids "dave_coilPROT" "dave_coilSPEED3" .has_description false
+effect: .name "dave_coilALLY4" .target "target" .chance 100% .on_hit true .on_miss true .apply_once true .buff_ids "dave_coilPROT" "dave_coilSPEED4" .has_description false
+effect: .name "dave_coilALLY5" .target "target" .chance 100% .on_hit true .on_miss true .apply_once true .buff_ids "dave_coilPROT" "dave_coilSPEED5" .has_description false
+
+effect: .name "dave_coilALLY1_fake" .target "performer" .chance 100% .on_hit false .on_miss false .apply_once true .buff_ids "dave_coilPROT" "dave_coilSPEED1"
+effect: .name "dave_coilALLY2_fake" .target "performer" .chance 100% .on_hit false .on_miss false .apply_once true .buff_ids "dave_coilPROT" "dave_coilSPEED2"
+effect: .name "dave_coilALLY3_fake" .target "performer" .chance 100% .on_hit false .on_miss false .apply_once true .buff_ids "dave_coilPROT" "dave_coilSPEED3"
+effect: .name "dave_coilALLY4_fake" .target "performer" .chance 100% .on_hit false .on_miss false .apply_once true .buff_ids "dave_coilPROT" "dave_coilSPEED4"
+effect: .name "dave_coilALLY5_fake" .target "performer" .chance 100% .on_hit false .on_miss false .apply_once true .buff_ids "dave_coilPROT" "dave_coilSPEED5"
+
+//big ouchie
+effect: .name "dave_riposte_1" .target "performer" .chance 100% .duration 3 .buff_ids "dave_riposte_hit" "dave_riposte_miss" "dave_riposte_crit_1" .on_hit true .on_miss false .buff_source_type bsrc_riposte .has_description false
+effect: .name "dave_riposte_2" .target "performer" .chance 100% .duration 3 .buff_ids "dave_riposte_hit" "dave_riposte_miss" "dave_riposte_crit_2" "dave_riposte_acc_1" .on_hit true .on_miss false .buff_source_type bsrc_riposte .has_description false
+effect: .name "dave_riposte_3" .target "performer" .chance 100% .duration 3 .buff_ids "dave_riposte_hit" "dave_riposte_miss" "dave_riposte_crit_3" "dave_riposte_acc_2" .on_hit true .on_miss false .buff_source_type bsrc_riposte .has_description false
+effect: .name "dave_riposte_4" .target "performer" .chance 100% .duration 3 .buff_ids "dave_riposte_hit" "dave_riposte_miss" "dave_riposte_crit_4" "dave_riposte_acc_3" .on_hit true .on_miss false .buff_source_type bsrc_riposte .has_description false
+effect: .name "dave_riposte_5" .target "performer" .chance 100% .duration 3 .buff_ids "dave_riposte_hit" "dave_riposte_miss" "dave_riposte_crit_5" "dave_riposte_acc_4" .on_hit true .on_miss false .buff_source_type bsrc_riposte .has_description false
+
+//effect: .name "dave_hurtieRIPOSTE" .target "performer" .chance 100% .duration 3 .buff_ids "dave_riposte_hit" "dave_riposte_miss" "dave_riposteTT" .on_hit true .on_miss false .buff_source_type bsrc_riposte .has_description false
+
+effect: .name "dave_riposteSTATS1" .target "performer" .chance 100% .on_hit false .on_miss false .buff_ids "dave_riposteSTATS1"
+effect: .name "dave_riposteSTATS2" .target "performer" .chance 100% .on_hit false .on_miss false .buff_ids "dave_riposteSTATS2"
+effect: .name "dave_riposteSTATS3" .target "performer" .chance 100% .on_hit false .on_miss false .buff_ids "dave_riposteSTATS3"
+effect: .name "dave_riposteSTATS4" .target "performer" .chance 100% .on_hit false .on_miss false .buff_ids "dave_riposteSTATS4"
+effect: .name "dave_riposteSTATS5" .target "performer" .chance 100% .on_hit false .on_miss false .buff_ids "dave_riposteSTATS5"
+
+effect: .name "dave_hurtieTT" .target "performer" .chance 100% .on_hit false .on_miss false .buff_ids "dave_pactTT"
+
+
+effect: .name "dave_hurtieDMG1" .target "performer" .chance 100% .health_damage 16 .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "dave_hurtieDMG2" .target "performer" .chance 100% .health_damage 19 .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "dave_hurtieDMG3" .target "performer" .chance 100% .health_damage 23 .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "dave_hurtieDMG4" .target "performer" .chance 100% .health_damage 26 .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "dave_hurtieDMG5" .target "performer" .chance 100% .health_damage 29 .on_hit true .on_miss false .apply_once true .has_description false
+
+effect: .name "dave_hurtieBUFF1" .target "performer" .chance 100% .buff_ids "dave_hurtieDMG_H" "dave_hurtieDMG_L" "dave_hurtieCRIT1" .on_hit true .on_miss false .apply_once true 
+effect: .name "dave_hurtieBUFF2" .target "performer" .chance 100% .buff_ids "dave_hurtieDMG_H" "dave_hurtieDMG_L" "dave_hurtieCRIT2" .on_hit true .on_miss false .apply_once true 
+effect: .name "dave_hurtieBUFF3" .target "performer" .chance 100% .buff_ids "dave_hurtieDMG_H" "dave_hurtieDMG_L" "dave_hurtieCRIT3" .on_hit true .on_miss false .apply_once true 
+effect: .name "dave_hurtieBUFF4" .target "performer" .chance 100% .buff_ids "dave_hurtieDMG_H" "dave_hurtieDMG_L" "dave_hurtieCRIT4" .on_hit true .on_miss false .apply_once true 
+effect: .name "dave_hurtieBUFF5" .target "performer" .chance 100% .buff_ids "dave_hurtieDMG_H" "dave_hurtieDMG_L" "dave_hurtieCRIT5" .on_hit true .on_miss false .apply_once true 
+
+
+//he's in the wawa
+effect: .name "dave_markBUFF" .target "performer_group" .chance 100% .buff_ids "dave_markBUFF" .on_hit true .on_miss false .has_description false
+
+effect: .name "dave_plungeTT" .target "performer" .chance 100% .buff_ids "dave_plungeTT2" "dave_plungeTT" .skill_instant true .on_hit true .on_miss false
+
+effect: .name "dave_plungeDMG1" .target "performer" .chance 100% .health_damage 4 .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "dave_plungeDMG2" .target "performer" .chance 100% .health_damage 5 .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "dave_plungeDMG3" .target "performer" .chance 100% .health_damage 6 .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "dave_plungeDMG4" .target "performer" .chance 100% .health_damage 7 .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "dave_plungeDMG5" .target "performer" .chance 100% .health_damage 8 .on_hit true .on_miss false .apply_once true .has_description false
+
+effect: .name "dave_markBITCH" .target "target" .chance 100% .tag 1 .on_hit true .on_miss false .has_description false
+
+effect: .name "dave_plungeBUFF" .target "performer" .chance 100% .buff_ids "dave_plungeBUFF" .on_hit true .on_miss false .has_description false 
+effect: .name "dave_plungeDODGE1" .target "target" .chance -400% .buff_ids "dave_plungeDODGE1" .on_hit true .on_miss false .has_description false
+effect: .name "dave_plungeDODGE2" .target "target" .chance -390% .buff_ids "dave_plungeDODGE2" .on_hit true .on_miss false .has_description false
+effect: .name "dave_plungeDODGE3" .target "target" .chance -380% .buff_ids "dave_plungeDODGE3" .on_hit true .on_miss false .has_description false
+effect: .name "dave_plungeDODGE4" .target "target" .chance -370% .buff_ids "dave_plungeDODGE4" .on_hit true .on_miss false .has_description false
+effect: .name "dave_plungeDODGE5" .target "target" .chance -360% .buff_ids "dave_plungeDODGE5" .on_hit true .on_miss false .has_description false
+effect: .name "dave_plungeDEBUFF" .target "performer" .chance 100% .buff_ids "dave_plungeDEBUFF" .on_hit true .on_miss false .has_description false
+
+effect: .name "dave_plungeDODGETT1" .target "performer" .chance 100% .buff_ids "dave_plungeDODGETT1" .on_hit true .on_miss false .skill_instant true
+effect: .name "dave_plungeDODGETT2" .target "performer" .chance 100% .buff_ids "dave_plungeDODGETT2" .on_hit true .on_miss false .skill_instant true
+effect: .name "dave_plungeDODGETT3" .target "performer" .chance 100% .buff_ids "dave_plungeDODGETT3" .on_hit true .on_miss false .skill_instant true
+effect: .name "dave_plungeDODGETT4" .target "performer" .chance 100% .buff_ids "dave_plungeDODGETT4" .on_hit true .on_miss false .skill_instant true
+effect: .name "dave_plungeDODGETT5" .target "performer" .chance 100% .buff_ids "dave_plungeDODGETT5" .on_hit true .on_miss false .skill_instant true
+
+
+effect: .name "dave_other_talk" .target "performer_group_other" .chance 100% .bark "str_dave_bark_test" .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "dave_self_talk" .target "performer" .chance 100% .bark "str_dave_bark_test" .on_hit true .on_miss false .queue true .apply_once true
+
