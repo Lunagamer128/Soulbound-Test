@@ -1,0 +1,55 @@
+
+soulbound.sprite.TempleBuffFX.png
+size: 780,294
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 5
+  rotate: true
+  xy: 439, 36
+  size: 256, 226
+  orig: 256, 226
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: true
+  xy: 738, 135
+  size: 157, 40
+  orig: 157, 40
+  offset: 0, 0
+  index: -1
+Metronome
+  rotate: false
+  xy: 2, 108
+  size: 435, 184
+  orig: 435, 184
+  offset: 0, 0
+  index: -1
+Needle
+  rotate: false
+  xy: 667, 3
+  size: 69, 289
+  orig: 69, 289
+  offset: 0, 0
+  index: -1
+NeedleCenter
+  rotate: true
+  xy: 354, 33
+  size: 73, 81
+  orig: 73, 81
+  offset: 0, 0
+  index: -1
+NeedleCenterBigGlow
+  rotate: false
+  xy: 253, 2
+  size: 99, 104
+  orig: 99, 104
+  offset: 0, 0
+  index: -1
+NeedleGlow
+  rotate: true
+  xy: 2, 37
+  size: 69, 249
+  orig: 69, 249
+  offset: 0, 0
+  index: -1
