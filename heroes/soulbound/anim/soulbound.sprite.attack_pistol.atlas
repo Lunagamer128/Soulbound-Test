@@ -1,0 +1,13 @@
+
+soulbound.sprite.attack_pistol.png
+size: 657,587
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+highwayman
+  rotate: false
+  xy: 1, 1
+  size: 654, 584
+  orig: 654, 584
+  offset: 0, 0
+  index: -1

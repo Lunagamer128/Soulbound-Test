@@ -1,0 +1,20 @@
+
+soulbound.sprite.soulbound_tendril3.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tentacle Merged
+  rotate: true
+  xy: 2, 86
+  size: 410, 535
+  orig: 410, 535
+  offset: 0, 0
+  index: -1
+water
+  rotate: false
+  xy: 2, 2
+  size: 370, 82
+  orig: 370, 82
+  offset: 0, 0
+  index: -1

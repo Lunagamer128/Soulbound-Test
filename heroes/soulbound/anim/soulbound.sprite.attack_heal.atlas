@@ -1,0 +1,13 @@
+
+soulbound.sprite.attack_heal.png
+size: 636,760
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+livesey
+  rotate: false
+  xy: 1, 1
+  size: 633, 757
+  orig: 633, 757
+  offset: 0, 0
+  index: -1

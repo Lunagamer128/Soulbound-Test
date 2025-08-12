@@ -1,0 +1,13 @@
+
+soulbound.sprite.defend.png
+size: 687,1061
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+highwayman
+  rotate: false
+  xy: 1, 1
+  size: 684, 1058
+  orig: 684, 1058
+  offset: 0, 0
+  index: -1

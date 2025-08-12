@@ -1,0 +1,41 @@
+
+soulbound.sprite.walk.png
+size: 1084,344
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cape_left
+  rotate: true
+  xy: 2, 2
+  size: 340, 488
+  orig: 340, 488
+  offset: 0, 0
+  index: -1
+cape_right
+  rotate: true
+  xy: 492, 30
+  size: 312, 430
+  orig: 312, 430
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 924, 173
+  size: 158, 169
+  orig: 158, 169
+  offset: 0, 0
+  index: -1
+leg_R
+  rotate: false
+  xy: 924, 73
+  size: 50, 98
+  orig: 50, 98
+  offset: 0, 0
+  index: -1
+leg_left
+  rotate: false
+  xy: 976, 103
+  size: 34, 68
+  orig: 34, 68
+  offset: 0, 0
+  index: -1
