@@ -1,6 +1,7 @@
 {
     "load_order":
     [
-        "secondary_banks/TempleBuffFX_Bank.bank"
+        "secondary_banks/TempleBuffFX_Bank.bank",
+        "secondary_banks/dave_test_bank.bank"
     ]
 }

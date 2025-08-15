@@ -6,8 +6,8 @@ effect: .name "dave_under25"  .target "performer" .set_mode dave_serious  .chanc
 effect: .name "dave_over25"  .target "performer" .set_mode dave_default  .chance 100% .on_hit true .on_miss true 
 
 //testy test
-effect: .name "dave_buffTEST" .target "performer" .chance 100% .buff_ids "dave_buffTEST" .skill_instant true
-effect: .name "dave_buffTEST2" .target "performer" .chance 100% .buff_ids "dave_buffTEST2" .skill_instant true
+effect: .name "dave_buffTEST" .target "performer" .chance 101% .buff_ids "dave_buffTEST" .skill_instant true .duration 1 .buff_duration_type combat_end .buff_source_type bsrc_vampire
+effect: .name "dave_buffTEST2" .target "performer" .chance 101% .buff_ids "dave_buffTEST2" .skill_instant true .duration 1 .buff_duration_type combat_end .buff_source_type bsrc_notspecified .steal_buff_source_type bsrc_vampire 
 
 
 // you know what that means! FISH-
